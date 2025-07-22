@@ -86,9 +86,19 @@ Unhelpful Use Case
 <section id="chatagent-interface-cmdl-cmdi" class="level2">
 <h2 class="anchored" data-anchor-id="chatagent-interface-cmdl-cmdi">Chat/Agent Interface (<code>Cmd+L</code> <code>Cmd+I</code>)</h2>
 <p>Context-aware chat that understands project structure. This is pretty helpful with being able to easily reference lots of things with the <code>@</code> syntax for files. If you have code highlighted when you engage it that will be included in context specifically, and open files will also be in context for you.</p>
-<blockquote class="blockquote">
-<p>![TIP] I find it really helpful to dump lots of things in a <code>ref</code> folder then <code>@</code> like everything useful as I go. This can be tutorials I found online, docs, etc. I can <code>@</code> the URL directly, but the <code>ref</code> folder serves as an aggregator for me that’s a bit easier to keep top of mind and curate as needed than the cursor docs feature IMO.</p>
-</blockquote>
+<div class="callout callout-style-default callout-tip callout-titled" title="Usage Tip">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Usage Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I find it really helpful to dump lots of things in a <code>ref</code> folder then <code>@</code> like everything useful as I go. This can be tutorials I found online, docs, etc. I can <code>@</code> the URL directly, but the <code>ref</code> folder serves as an aggregator for me that’s a bit easier to keep top of mind and curate as needed than the cursor docs feature IMO.</p>
+</div>
+</div>
 <p>The Agent gives many options and you get really nice diffs that you can individually review, or accept all, and you can restore back to checkpoints if you accepted changes that you find don’t work well after testing.</p>
 </section>
 <section id="inline-editor-cmdk" class="level2">

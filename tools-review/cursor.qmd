@@ -50,8 +50,11 @@ I was working on creating examples for a workshop I was teaching on [FastHTML Sy
 
 Context-aware chat that understands project structure.  This is pretty helpful with being able to easily reference lots of things with the `@` syntax for files.   If you have code highlighted when you engage it that will be included in context specifically, and open files will also be in context for you.  
 
-> ![TIP]
-> I find it really helpful to dump lots of things in a `ref` folder then `@` like everything useful as I go.  This can be tutorials I found online, docs, etc.  I can `@` the URL directly, but the `ref` folder serves as an aggregator for me that's a bit easier to keep top of mind and curate as needed than the cursor docs feature IMO.
+
+:::{.callout-tip title="Usage Tip"}
+I find it really helpful to dump lots of things in a `ref` folder then `@` like everything useful as I go.  This can be tutorials I found online, docs, etc.  I can `@` the URL directly, but the `ref` folder serves as an aggregator for me that's a bit easier to keep top of mind and curate as needed than the cursor docs feature IMO.
+:::
+
 
 The Agent gives many options and you get really nice diffs that you can individually review, or accept all, and you can restore back to checkpoints if you accepted changes that you find don't work well after testing.
 
