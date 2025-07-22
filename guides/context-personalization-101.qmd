@@ -2,8 +2,7 @@
 title: Optimize Your Dev Setup For Evals w/ Cursor Rules & MCP
 author: Isaac Flath
 date: 7/15/2025
-image: ./context-personalization-101.png
-creator: "@isaac_flath"
+image: /guides/context-personalization-101.png
 format:
   html:
     number-sections: true
@@ -12,6 +11,15 @@ format:
     highlight-style: tango
     code-fold: true
     self-contained: true
+open-graph:
+  title: "Optimize Your Dev Setup For Evals w/ Cursor Rules & MCP"
+  description: "Learn to optimize your dev environment with AI tools using Cursor Rules and Model Context Protocol"
+  image: /guides/context-personalization-101.png
+twitter-card:
+  title: "Optimize Your Dev Setup For Evals w/ Cursor Rules & MCP"
+  description: "Learn to optimize your dev environment with AI tools using Cursor Rules and Model Context Protocol"
+  image: /guides/context-personalization-101.png
+  card-style: summary_large_image
 ---
 
 This is a guide to help you optimize your dev setup to get the most out of AI.  It's showed with specific examples for eval frameworks, but the concepts are universally applicable to any tool.  It's a guide to help you understand the different layers of context and how to use them to your advantage for your AI tools.

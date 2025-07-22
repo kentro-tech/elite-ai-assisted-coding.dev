@@ -15,7 +15,7 @@ title-block-banner: true
 
 ::: {.columns}
 :::: {.column width="20%"}
-<img src="./static/profile_img.jpg" alt="Isaac Flath" style="border-radius:50%;width:100%;">
+<img src="./static/profile_img.jpg" alt="Isaac Flath" style="border-radius:50%;width:100%;"></img>
 ::::
 :::: {.column width="5%"}
 ::::

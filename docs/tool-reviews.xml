@@ -6,15 +6,15 @@
       version="2.0">
 <channel>
 <title>Isaac Flath</title>
-<link>https://maven.com/kentro/context-engineering-for-coding/tool-reviews.html</link>
-<atom:link href="https://maven.com/kentro/context-engineering-for-coding/tool-reviews.xml" rel="self" type="application/rss+xml"/>
+<link>https://ai-context-engineering.com/tool-reviews.html</link>
+<atom:link href="https://ai-context-engineering.com/tool-reviews.xml" rel="self" type="application/rss+xml"/>
 <description>One Stop Shop for Information on Context Engineering for Coding</description>
 <generator>quarto-1.7.32</generator>
 <lastBuildDate>Tue, 22 Jul 2025 04:00:00 GMT</lastBuildDate>
 <item>
   <title>Cursor IDE Reference Guide</title>
   <dc:creator>Isaac Flath</dc:creator>
-  <link>https://maven.com/kentro/context-engineering-for-coding/tools-review/cursor.html</link>
+  <link>https://ai-context-engineering.com/tools-review/cursor.html</link>
   <description><![CDATA[ 
 
 
@@ -30,7 +30,7 @@
 <p>It is worth trying because it is a full IDE that gives a great diff experience on AI changes, and is very aggressive with the AI assistance.</p>
 <div class="columns">
 <div class="column" style="width:20%;">
-<p><img src="https://maven.com/kentro/context-engineering-for-coding/static/profile_img.jpg" alt="Isaac Flath" style="border-radius:50%;width:100%;"></p>
+<p><img src="https://ai-context-engineering.com/static/profile_img.jpg" alt="Isaac Flath" style="border-radius:50%;width:100%;"></p>
 </div><div class="column" style="width:5%;">
 
 </div><div class="column" style="width:75%;">
@@ -116,7 +116,7 @@ Usage Tip
 <p>Cursor Rules are extremely helpful and there’s 4 modes:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://maven.com/kentro/context-engineering-for-coding/static/CursorRulesOptions.png" class="img-fluid figure-img"></p>
+<p><img src="https://ai-context-engineering.com/static/CursorRulesOptions.png" class="img-fluid figure-img"></p>
 <figcaption>Cursor Rules Options</figcaption>
 </figure>
 </div>
@@ -141,9 +141,9 @@ Usage Tip
  ]]></description>
   <category>IDE</category>
   <category>Background agent</category>
-  <guid>https://maven.com/kentro/context-engineering-for-coding/tools-review/cursor.html</guid>
+  <guid>https://ai-context-engineering.com/tools-review/cursor.html</guid>
   <pubDate>Tue, 22 Jul 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://maven.com/kentro/context-engineering-for-coding/static/Cursor.avif" medium="image" type="image/avif"/>
+  <media:content url="https://ai-context-engineering.com/static/Cursor.avif" medium="image" type="image/avif"/>
 </item>
 </channel>
 </rss>

@@ -5,13 +5,17 @@ execute:
   freeze: true
 website:
   title: "Isaac Flath"
+  site-url: https://ai-context-engineering.com
+  description: "One Stop Shop for Information on Context Engineering for Coding"
   open-graph:
     locale: en_US
+    site-name: "Isaac Flath - AI Context Engineering"
+    image: static/default-social.png
   twitter-card:
-    image: street.jpg
+    card-style: summary_large_image
+    image: static/default-social.png
     creator: "@isaac_flath"
-  site-url: https://maven.com/kentro/context-engineering-for-coding
-  description: "One Stop Shop for Information on Context Engineering for Coding"
+    site: "@isaac_flath"
   navbar:
     right:
       - text: "Tool Reviews"
