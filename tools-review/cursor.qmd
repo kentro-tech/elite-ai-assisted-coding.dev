@@ -1,20 +1,19 @@
 ---
 title: "Cursor IDE Reference Guide"
 description: "IDE capabilities, tab completion, background agents, integrations, and terminal assistance"
-image: /static/CursorToolReview.png
+image: "/static/CursorToolReview.png"
 author: "Isaac Flath"
 date: "2025-07-22"
 categories: [IDE, Background agent]
 toc: false
-open-graph:
-  title: "Cursor IDE Reference Guide"
-  description: "IDE capabilities, tab completion, background agents, integrations, and terminal assistance"
-  image: /static/CursorToolReview.png
 twitter-card:
-  title: "Cursor IDE Reference Guide: AI-Powered Development"
-  description: "IDE capabilities, tab completion, background agents, integrations, and terminal assistance"
-  image: /static/CursorToolReview.png
-  card-style: summary_large_image
+    title: "Cursor IDE Reference Guide"
+    description: "IDE capabilities, tab completion, background agents, integrations, and terminal assistance"
+    image: "/static/CursorToolReview.png"
+open-graph:
+    title: "Cursor IDE Reference Guide"
+    description: "IDE capabilities, tab completion, background agents, integrations, and terminal assistance"
+    image: "/static/CursorToolReview.png"
 ---
 
 > A technical reference for Cursor's AI-assisted development features

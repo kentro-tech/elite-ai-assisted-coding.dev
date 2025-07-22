@@ -1,6 +1,7 @@
 ---
 title: "Context Engineering for Coding"
 subtitle: "A review of AI coding tools and practices that actually work and improve your productivity"
+image: static/default-social.png
 author: "Isaac Flath"
 format:
   html:

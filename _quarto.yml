@@ -7,17 +7,6 @@ website:
   title: "Isaac Flath"
   site-url: https://ai-context-engineering.com
   description: "One Stop Shop for Information on Context Engineering for Coding"
-  open-graph:
-    locale: en_US
-    site-name: "Isaac Flath - AI Context Engineering"
-    image: static/default-social.png
-  twitter-card:
-    card-style: summary_large_image
-    title: "AI Context Engineering: Tools & Techniques for Better AI Coding"
-    description: "One Stop Shop for Information on Context Engineering for Coding"
-    image: static/default-social.png
-    creator: "@isaac_flath"
-    site: "@isaac_flath"
   navbar:
     right:
       - text: "Tool Reviews"
