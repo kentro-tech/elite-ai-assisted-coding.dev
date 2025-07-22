@@ -1,0 +1,17 @@
+---
+title: "Tool Reviews"
+listing:
+  contents: tools-review
+  sort: "date desc"
+  type: table
+  categories: true
+  sort-ui: [date, title, categories]
+  filter-ui: true
+  feed: true
+  fields: [date, title, categories]
+
+page-layout: full
+title-block-banner: true
+---
+
+ABCD

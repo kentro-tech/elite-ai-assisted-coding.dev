@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Isaac Flath</title>
+<link>https://maven.com/kentro/context-engineering-for-coding/tool-reviews.html</link>
+<atom:link href="https://maven.com/kentro/context-engineering-for-coding/tool-reviews.xml" rel="self" type="application/rss+xml"/>
+<description>One Stop Shop for Information on Context Engineering for Coding</description>
+<generator>quarto-1.7.32</generator>
+<lastBuildDate>Tue, 22 Jul 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Cursor IDE Reference Guide</title>
+  <dc:creator>Isaac Flath</dc:creator>
+  <link>https://maven.com/kentro/context-engineering-for-coding/tools-review/cursor.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="cursor-ide-reference-guide" class="level1">
+<h1>Cursor IDE Reference Guide</h1>
+<p>A technical reference for Cursor’s AI-assisted development features</p>
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>Cursor is a fork of VS Code that integrates AI assistance throughout the development workflow. It indexes entire codebases to provide context-aware suggestions, completions, and edits.</p>
+<p>It is worth trying because it is a full IDE that gives a great diff experience on AI changes, and is very aggressive with the AI assistance.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Special Offer for Readers
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Get <strong>30% off</strong> my Context Engineering course with code <strong>ISAAC</strong></p>
+<p><a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="btn btn-primary btn-lg"><strong>Enroll Now on Maven</strong></a></p>
+</div>
+</div>
+</section>
+<section id="top-ide-features" class="level2">
+<h2 class="anchored" data-anchor-id="top-ide-features">Top IDE Features</h2>
+<section id="tab-completion" class="level3">
+<h3 class="anchored" data-anchor-id="tab-completion">Tab Completion</h3>
+<p>Cursor’s completions use project-wide context rather than just the current file and are very aggressive, which is good in some situations and annoying in others.</p>
+<div class="callout callout-style-default callout-tip callout-titled" title="Helpful Use Case">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Helpful Use Case
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I was doing an <a href="https://github.com/feldroy/air/pull/143/files#diff-e14fd0d1e563b32e21626eaeba650c79ce24651dfe03c83a5d977372384ff8ec">OSS PR to add type hints</a> to a new web development framework called <code>air</code> (very repetitive task). These needed to be matched up to a HTML reference documentation, and agents kept leaving off or added tags. Cursor’s tab comletion let me copy/paste from reference docs then hit tab for it to tab complete and modify to python syntax very quickly. It got the pattern after the first couple and let me get through it all in very little time.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled" title="Unhelpful Use Case">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Unhelpful Use Case
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>I was working on creating examples for a workshop I was teaching on <a href="https://github.com/kentro-tech/fasthtml-routes-and-syntax-ws/tree/main">FastHTML Syntax and Project Organization</a>. The tab completion was extremely annoying, because it was project wide it kept trying to autocomplete and change my code to what I did somewhere else. I felt like I was fighting the tab completion constantly and having to keep telling it to go away A LOT because I had a very specific thing in mind I wanted to do.</p>
+</div>
+</div>
+</section>
+<section id="chatagent-interface-cmdl-cmdi" class="level3">
+<h3 class="anchored" data-anchor-id="chatagent-interface-cmdl-cmdi">Chat/Agent Interface (<code>Cmd+L</code> <code>Cmd+I</code>)</h3>
+<p>Context-aware chat that understands project structure. This is pretty helpful with being able to easily reference lots of things with the <code>@</code> syntax for files. If you have code highlighted when you engage it that will be included in context specifically, and open files will also be in context for you.</p>
+<blockquote class="blockquote">
+<p>![TIP] I find it really helpful to dump lots of things in a <code>ref</code> folder then <code>@</code> like everything useful as I go. This can be tutorials I found online, docs, etc. I can <code>@</code> the URL directly, but the <code>ref</code> folder serves as an aggregator for me that’s a bit easier to keep top of mind and curate as needed than the cursor docs feature IMO.</p>
+</blockquote>
+<p>The Agent gives many options and you get really nice diffs that you can individually review, or accept all, and you can restore back to checkpoints if you accepted changes that you find don’t work well after testing.</p>
+</section>
+<section id="inline-editor-cmdk" class="level3">
+<h3 class="anchored" data-anchor-id="inline-editor-cmdk">Inline Editor (<code>Cmd+K</code>)</h3>
+<p>Edit code in place with AI assistance <code>Cmd+K</code>. This lets you target specific pieces of code to edit. This is extremely helpful for limiting the scope of AI, especially when it’s trying to do too much or you know exactly where the change should happen.</p>
+<p>I often use this to quickly ask it to write a doc string for documentation, or to do things like refactor a hairy logic stuck iside loops or conditionals into functions.</p>
+</section>
+<section id="terminal-helped-also-cmdk" class="level3">
+<h3 class="anchored" data-anchor-id="terminal-helped-also-cmdk">Terminal helped (also <code>Cmd+K</code>)</h3>
+<p>In your terminal you can select <code>Cmd+K</code> to have an AI assist that sees that terminals history. This is super helpful for lots of things, like telling you how to run things, git commands you’ve forgotten, telling it to do some curl command you don’t remember all the flags you need, etc.</p>
+<p>The <strong>really</strong> nice thing about <code>Cmd+K</code> is it’s very controlled, so it puts the command in your terminal but YOU must run it. This makes it nice because I can ask it to help with even fairly risk things because it won’t be running anything on it’s own.</p>
+</section>
+<section id="cursor-rules" class="level3">
+<h3 class="anchored" data-anchor-id="cursor-rules">Cursor Rules</h3>
+<p>Cursor Rules are extremely helpful and there’s 4 modes:</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://maven.com/kentro/context-engineering-for-coding/static/CursorRulesOptions.png" class="img-fluid figure-img"></p>
+<figcaption>Cursor Rules Options</figcaption>
+</figure>
+</div>
+<ul>
+<li><strong>Always Apply</strong> - Core rules that should never be violated</li>
+<li><strong>Apply Manually</strong> - Rules you trigger when needed. If you’re really bad at thinking about context, and you’re not going to put a lot of effort in then don’t use this.</li>
+<li><strong>Apply Intelligently</strong> - This is a great thing to use and provide a good description for the agent to know when to use it.</li>
+<li><strong>Apply to Specific Files</strong> - File-type or path-specific rules. This can be nice, but you’re liable to set it to a path, restructure something, then forget and this rule will be acidentally deprecated. This is useful in a decently mature code base, or with very general paths like <code>src</code> or <code>docs</code> directory that are not likely to change.</li>
+</ul>
+</section>
+</section>
+<section id="additional-features" class="level2">
+<h2 class="anchored" data-anchor-id="additional-features">Additional Features</h2>
+<ul>
+<li>Background Agents: These are great to bring some of what you do in cursor for easier tasks to run in parallel</li>
+<li>Slack/Github Integration: A nice features to do additional tasks and ask cursor to work on things from Slack or from a github repo. I didn’t find it as useful for actual coding things, as I found going to the IDE, adding additional context and thinking about the task instructions for formulate payed dividends. But for writing tasks it was a great easy starting point!</li>
+</ul>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>IDE</category>
+  <category>Background agent</category>
+  <guid>https://maven.com/kentro/context-engineering-for-coding/tools-review/cursor.html</guid>
+  <pubDate>Tue, 22 Jul 2025 04:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,59 @@
+---
+title: "Context Engineering for Coding"
+subtitle: "A review of AI coding tools and practices that actually work and improve your productivity"
+author: "Isaac Flath"
+format:
+  html:
+    toc: false
+---
+
+::: {.column-page}
+
+:::: {.columns}
+
+::: {.column width="30%"}
+![](static/profile_img.jpg){.rounded .img-fluid}
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="65%"}
+
+# Hey, I'm Isaac Flath
+
+I've been deep in the AI coding tools space, testing everything from Cursor to Windsurf to see what actually delivers. Just honest reviews and techniques based on real coding sessions.
+
+:::
+
+
+## What You'll Find Here
+
+- **Unbiased Reviews**: I pay for these tools and try them myself
+- **Real Code Examples**: Hear exactly what tasks I used them
+- **Practical Insights**: What works, what doesn't, and when to use each tool
+- **Guides**: How to use each tool to its full potential, both universal information and tool specific information
+- **Condensed Information**: I've condensed the information to the most useful so you don't need to spend hours on every tool to know what's worth your time to try for yourself.
+
+::::
+
+---
+
+## Want Even More?
+
+I teach a course on **Context Engineering for Coding** - the art of getting AI to write the code you actually want. Learn the patterns that 10x your productivity with any AI coding tool.
+
+This is free content I provide, and if you want even more value, that's even more organized, and taught by me, you can get it here:
+
+:::{.callout-tip}
+## Special Offer for Readers
+Get **30% off** my Context Engineering course with code **ISAAC**
+
+[**Enroll Now on Maven**](https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC){.btn .btn-primary .btn-lg}
+:::
+
+Along with the course you'll get access to a private Discord server where you can ask questions, share your own tips, and get help from me and other students.  Once the course started, I will read and respond to all questions in the Discord server.
+
+---
+
+:::

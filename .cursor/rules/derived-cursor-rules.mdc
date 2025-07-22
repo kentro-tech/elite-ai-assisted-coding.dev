@@ -1,0 +1,33 @@
+---
+description: AI rules derived by SpecStory from the project AI interaction history
+globs: *
+---
+
+## HEADERS
+
+## PROJECT RULES
+
+## CODING STANDARDS
+
+## WORKFLOW & RELEASE RULES
+
+## TECH STACK
+
+## PROJECT DOCUMENTATION & CONTEXT SYSTEM
+- When writing blog posts, mimic the style, conciseness, depth, and approachability of Isaac Flath's work, such as demonstrated in blog posts like [Late Chunking](@https://isaacflath.com/blog/blog_post?fpath=posts%2F2025-04-08-LateChunking.ipynb). This includes:
+    1.  Clear problem statement upfront - starts with a concrete example of the problem
+    2.  Practical focus - shows actual code implementations
+    3.  Progressive disclosure - builds from simple to complex
+    4.  Visual aids and examples throughout
+    5.  Balanced technical depth with accessibility
+    6.  Conversational but informative tone
+    7.  Uses code blocks extensively to demonstrate concepts
+    8.  Includes helpful tips/notes in callout boxes
+    9.  Acknowledges resources and gives credit
+    10. Focuses on "why it matters" and practical applications
+
+    When writing documentation, the goal is to create a concise reference that allows for objective assessment and saves developers time, rather than creating promotional content. Documentation must be factual, objective, and avoid sales-oriented language.
+
+## DEBUGGING
+
+## BEST PRACTICES
