@@ -1,5 +1,11 @@
 [
   {
+    "listing": "/guides.html",
+    "items": [
+      "/guides/context-personalization-101.html"
+    ]
+  },
+  {
     "listing": "/tool-reviews.html",
     "items": [
       "/tools-review/cursor.html"
