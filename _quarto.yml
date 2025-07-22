@@ -13,6 +13,8 @@ website:
     image: static/default-social.png
   twitter-card:
     card-style: summary_large_image
+    title: "AI Context Engineering: Tools & Techniques for Better AI Coding"
+    description: "One Stop Shop for Information on Context Engineering for Coding"
     image: static/default-social.png
     creator: "@isaac_flath"
     site: "@isaac_flath"
