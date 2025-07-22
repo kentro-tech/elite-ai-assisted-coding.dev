@@ -43,7 +43,7 @@ I've been deep in the AI coding tools space, testing everything from Cursor to W
 
 I teach a course on **Context Engineering for Coding** - the art of getting AI to write the code you actually want. Learn the patterns that 10x your productivity with any AI coding tool.
 
-This is free content I provide, and if you want even more value, that's even more organized, and taught by me, you can get it here:
+This website had loads of free content I provide.  But if you want even more value, more content, that's even more organized, taught by me live, and interactive, you can get it here:
 
 :::{.callout-tip}
 ## Special Offer for Readers

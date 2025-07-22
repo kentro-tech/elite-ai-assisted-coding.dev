@@ -21,7 +21,9 @@
 
 
 
+<blockquote class="blockquote">
 <p>A technical reference for Cursor’s AI-assisted development features</p>
+</blockquote>
 <section id="overview" class="level1">
 <h1>Overview</h1>
 <p>Cursor is a fork of VS Code that integrates AI assistance throughout the development workflow. It indexes entire codebases to provide context-aware suggestions, completions, and edits.</p>
