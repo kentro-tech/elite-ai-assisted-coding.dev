@@ -5,7 +5,6 @@ date: 7/15/2025
 image: ./context-personalization-101.png
 format:
   html:
-    css: styles.css
     number-sections: true
     toc: true
     theme: cosmo
@@ -91,7 +90,7 @@ PasteMax is a tool that is a Native App you can install on your machine that let
 
 GitMCP is a tool that lets you use a github repo as a context source by creating an MCP server to let agents interact with the repo via tools.  It's a different approach to general context, and it's a good way to be able to let agents interact with the repo via tools.  It also has a nice web chat interface that's great for quick questions to explore the repo.
 
-![GitMCP UI](./inspect/general/gitmcp.png)
+![GitMCP UI](./inspect/general/mcp.png)
 
 
 - Repository chat interface: https://gitmcp.io/UKGovernmentBEIS/inspect_evals/chat

@@ -33,7 +33,6 @@ website:
         href: https://twitter.com/isaac_flath
 format:
   html:
-    css: styles.css
     theme: 
       light: cosmo
       dark: cyborg
