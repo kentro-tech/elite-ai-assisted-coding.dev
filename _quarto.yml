@@ -9,7 +9,6 @@ website:
     locale: en_US
   twitter-card:
     image: street.jpg
-    card-style: summary
     creator: "@isaac_flath"
   site-url: https://maven.com/kentro/context-engineering-for-coding
   description: "One Stop Shop for Information on Context Engineering for Coding"

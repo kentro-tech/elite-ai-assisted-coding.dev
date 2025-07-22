@@ -3,6 +3,7 @@ title: Optimize Your Dev Setup For Evals w/ Cursor Rules & MCP
 author: Isaac Flath
 date: 7/15/2025
 image: ./context-personalization-101.png
+creator: "@isaac_flath"
 format:
   html:
     number-sections: true

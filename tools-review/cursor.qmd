@@ -3,6 +3,7 @@ title: "Cursor IDE Reference Guide"
 description: "IDE capabilities, tab completion, background agents, integrations, and terminal assistance"
 image: ../static/Cursor.avif
 author: "Isaac Flath"
+creator: "@isaac_flath"
 date: "2025-07-22"
 categories: [IDE, Background agent]
 toc: false
