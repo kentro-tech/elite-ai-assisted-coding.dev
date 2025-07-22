@@ -1,5 +1,6 @@
 ---
 title: "Tool Reviews"
+image: static/default-social.png
 listing:
   contents: tools-review
   sort: "date desc"

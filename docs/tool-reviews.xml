@@ -9,6 +9,13 @@
 <link>https://ai-context-engineering.com/tool-reviews.html</link>
 <atom:link href="https://ai-context-engineering.com/tool-reviews.xml" rel="self" type="application/rss+xml"/>
 <description>One Stop Shop for Information on Context Engineering for Coding</description>
+<image>
+<url>https://ai-context-engineering.com/static/default-social.png</url>
+<title>Isaac Flath</title>
+<link>https://ai-context-engineering.com/tool-reviews.html</link>
+<height>81</height>
+<width>144</width>
+</image>
 <generator>quarto-1.7.32</generator>
 <lastBuildDate>Tue, 22 Jul 2025 04:00:00 GMT</lastBuildDate>
 <item>

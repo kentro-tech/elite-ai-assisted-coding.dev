@@ -13,7 +13,6 @@ twitter-card:
 open-graph:
     title: "Cursor IDE Reference Guide"
     description: "IDE capabilities, tab completion, background agents, integrations, and terminal assistance"
-    image: "/static/CursorToolReview.png"
 ---
 
 > A technical reference for Cursor's AI-assisted development features
