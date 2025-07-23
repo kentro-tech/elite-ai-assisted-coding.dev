@@ -1,43 +1,50 @@
 [
   {
+    "objectID": "twitter_thread_amp_review.html",
+    "href": "twitter_thread_amp_review.html",
+    "title": "Isaac Flath",
+    "section": "",
+    "text": "Twitter Thread: AMP Tool Review\nTweet 1/8\nI put a new AI agent, AMP, to a real-world test. The task? Create the “Layouts Concepts” guide for Air, a brand-new OSS web framework. This meant I had to code examples and write the docs for them. The PR was accepted & merged!\nHere’s how it went. 🧵\n\n\n\nThe blog post title card for the AMP tool review\n\n\nTweet 2/8\nThe challenge: Air is a new framework currently in alpha. This means it’s not in any major AI model’s training data, making it a perfect test for an agent’s ability to learn from the code I provide in my editor.\nTweet 3/8\nTo start, I needed to learn the framework myself. I tasked AMP with porting a to-do app I’d built in another framework (FastHTML) over to Air. I just gave it both projects in my workspace and a prompt. It successfully generated a working app.\nTweet 4/8\nWell, almost working. The first version had a bug with database writes. I copied the server logs, fed them back to AMP, and it identified and fixed the issue on the first try. Impressive.\n\n\n\nA screenshot showing AMP’s response after fixing the database error.\n\n\nTweet 5/8\nWith a working app, I understood the layout patterns. Next, I prompted AMP to write the “Layouts Concepts Guide” based on the code it just helped create.\nTweet 6/8\nThis is where the “human in the loop” part comes in. The first draft was a great start but went way off-scope, adding sections on forms, error pages, etc. My main job was simplification—deleting large chunks and refining the code examples.\n\n\n\nA screenshot showing the final, clean structure of the documentation that was merged.\n\n\nTweet 7/8\nThe editing process was still way faster than starting from scratch. The final guide was clean, well-structured, and is now part of the official Air documentation.\nTweet 8/8\nFinal verdict: For the coding task, AMP was a huge win. For documentation, it was helpful but comparable to other top-tier models. The real power was the seamless workflow from code generation to writing.\nRead the full, detailed breakdown here: [Link to your blog post]"
+  },
+  {
     "objectID": "tools-review/cursor.html",
     "href": "tools-review/cursor.html",
-    "title": "Cursor IDE Reference Guide",
+    "title": "Cursor Tool Review",
     "section": "",
     "text": "A technical reference for Cursor’s AI-assisted development features"
   },
   {
     "objectID": "tools-review/cursor.html#tab-completion",
     "href": "tools-review/cursor.html#tab-completion",
-    "title": "Cursor IDE Reference Guide",
+    "title": "Cursor Tool Review",
     "section": "Tab Completion",
     "text": "Tab Completion\nCursor’s completions use project-wide context rather than just the current file and are very aggressive, which is good in some situations and annoying in others.\n\n\n\n\n\n\nHelpful Use Case\n\n\n\nI was doing an OSS PR to add type hints to a new web development framework called air (very repetitive task). These needed to be matched up to a HTML reference documentation, and agents kept leaving off or added tags. Cursor’s tab comletion let me copy/paste from reference docs then hit tab for it to tab complete and modify to python syntax very quickly. It got the pattern after the first couple and let me get through it all in very little time.\n\n\n\n\n\n\n\n\nUnhelpful Use Case\n\n\n\nI was working on creating examples for a workshop I was teaching on FastHTML Syntax and Project Organization. The tab completion was extremely annoying, because it was project wide it kept trying to autocomplete and change my code to what I did somewhere else. I felt like I was fighting the tab completion constantly and having to keep telling it to go away A LOT because I had a very specific thing in mind I wanted to do."
   },
   {
     "objectID": "tools-review/cursor.html#chatagent-interface-cmdl-cmdi",
     "href": "tools-review/cursor.html#chatagent-interface-cmdl-cmdi",
-    "title": "Cursor IDE Reference Guide",
+    "title": "Cursor Tool Review",
     "section": "Chat/Agent Interface (Cmd+L Cmd+I)",
     "text": "Chat/Agent Interface (Cmd+L Cmd+I)\nContext-aware chat that understands project structure. This is pretty helpful with being able to easily reference lots of things with the @ syntax for files. If you have code highlighted when you engage it that will be included in context specifically, and open files will also be in context for you.\n\n\n\n\n\n\nUsage Tip\n\n\n\nI find it really helpful to dump lots of things in a ref folder then @ like everything useful as I go. This can be tutorials I found online, docs, etc. I can @ the URL directly, but the ref folder serves as an aggregator for me that’s a bit easier to keep top of mind and curate as needed than the cursor docs feature IMO.\n\n\nThe Agent gives many options and you get really nice diffs that you can individually review, or accept all, and you can restore back to checkpoints if you accepted changes that you find don’t work well after testing."
   },
   {
     "objectID": "tools-review/cursor.html#inline-editor-cmdk",
     "href": "tools-review/cursor.html#inline-editor-cmdk",
-    "title": "Cursor IDE Reference Guide",
+    "title": "Cursor Tool Review",
     "section": "Inline Editor (Cmd+K)",
     "text": "Inline Editor (Cmd+K)\nEdit code in place with AI assistance Cmd+K. This lets you target specific pieces of code to edit. This is extremely helpful for limiting the scope of AI, especially when it’s trying to do too much or you know exactly where the change should happen.\nI often use this to quickly ask it to write a doc string for documentation, or to do things like refactor a hairy logic stuck iside loops or conditionals into functions."
   },
   {
     "objectID": "tools-review/cursor.html#terminal-helped-also-cmdk",
     "href": "tools-review/cursor.html#terminal-helped-also-cmdk",
-    "title": "Cursor IDE Reference Guide",
+    "title": "Cursor Tool Review",
     "section": "Terminal helped (also Cmd+K)",
     "text": "Terminal helped (also Cmd+K)\nIn your terminal you can select Cmd+K to have an AI assist that sees that terminals history. This is super helpful for lots of things, like telling you how to run things, git commands you’ve forgotten, telling it to do some curl command you don’t remember all the flags you need, etc.\nThe really nice thing about Cmd+K is it’s very controlled, so it puts the command in your terminal but YOU must run it. This makes it nice because I can ask it to help with even fairly risk things because it won’t be running anything on it’s own."
   },
   {
     "objectID": "tools-review/cursor.html#cursor-rules",
     "href": "tools-review/cursor.html#cursor-rules",
-    "title": "Cursor IDE Reference Guide",
+    "title": "Cursor Tool Review",
     "section": "Cursor Rules",
     "text": "Cursor Rules\nCursor Rules are extremely helpful and there’s 4 modes:\n\n\n\nCursor Rules Options\n\n\n\nAlways Apply - Core rules that should never be violated\nApply Manually - Rules you trigger when needed. If you’re really bad at thinking about context, and you’re not going to put a lot of effort in then don’t use this.\nApply Intelligently - This is a great thing to use and provide a good description for the agent to know when to use it.\nApply to Specific Files - File-type or path-specific rules. This can be nice, but you’re liable to set it to a path, restructure something, then forget and this rule will be acidentally deprecated. This is useful in a decently mature code base, or with very general paths like src or docs directory that are not likely to change."
   },
@@ -46,21 +53,28 @@
     "href": "guides.html",
     "title": "Tool Reviews",
     "section": "",
-    "text": "Special Offer for Readers\n\n\n\nGet 30% off my Context Engineering course with code ISAAC\nEnroll Now on Maven\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Categories\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nOptimize Your Dev Setup For Evals w/ Cursor Rules & MCP\n\n\n\n\n\nJul 15, 2025\n\n\n\n\n\nNo matching items"
+    "text": "Special Offer for Readers\n\n\n\nGet 30% off my Context Engineering for Coding course with code ISAAC\nEnroll Now on Maven\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Categories\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nOptimize Your Dev Setup For Evals w/ Cursor Rules & MCP\n\n\n\n\n\nJul 15, 2025\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "tool-reviews.html",
     "href": "tool-reviews.html",
     "title": "Tool Reviews",
     "section": "",
-    "text": "Special Offer for Readers\n\n\n\nGet 30% off my Context Engineering course with code ISAAC\nEnroll Now on Maven\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Categories\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nJul 22, 2025\n\n\nCursor IDE Reference Guide\n\n\nIDE, Background agent\n\n\n\n\n\n\nNo matching items"
+    "text": "Special Offer for Readers\n\n\n\nGet 30% off my Context Engineering for Coding course with code ISAAC\nEnroll Now on Maven\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Categories\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nJul 22, 2025\n\n\nCursor Tool Review\n\n\nIDE\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "linkedin_post_amp_review.html",
+    "href": "linkedin_post_amp_review.html",
+    "title": "Isaac Flath",
+    "section": "",
+    "text": "LinkedIn Post: AMP Tool Review\nTitle: Putting AI to the Test: From Code Generation to Documentation with the AMP Agent\nI recently ran an experiment to see how a modern AI agent handles a real-world, start-to-finish open-source contribution. I used AMP to create the “Layouts Concepts” guide for Air, a new web framework. The task was a great test because it required both generating code to understand the framework and then writing the official documentation based on that code.\nThe results were impressive and highlighted the real strengths (and current limitations) of AI-assisted development.\nThe Process:\n\nCode Generation: I started by asking AMP to port a to-do application from another framework (FastHTML) to Air. Since Air is in alpha and not in public training data, the agent had to rely entirely on the source code I provided in my workspace. It successfully generated a functional application.\nAI-Powered Debugging: The initial app had a bug in the database logic. I simply fed the server logs back into AMP, and it correctly identified and fixed the error on its first attempt.\nDocumentation Writing: With a working application providing the necessary patterns, I then tasked AMP with writing the concepts guide.\n\nThe “Human in the Loop” Reality:\nWhile AMP dramatically accelerated the process, it wasn’t a “one-click” solution. The agent’s first draft of the documentation was a solid foundation but required significant manual refinement. I had to: - Remove large sections of irrelevant, out-of-scope content that the agent added. - Simplify and consolidate the code examples to make them clearer for educational purposes. - Restructure the narrative to flow logically for a developer audience.\nThis editing phase was crucial, but it was still far more efficient than writing the entire guide from a blank page.\nFinal Verdict:\nFor the coding and debugging portion, AMP was a clear productivity multiplier. For the documentation writing, it provided a strong starting point, comparable to what I’d expect from other top models like Claude 3 Opus or Gemini 1.5 Pro.\nThe real win was the seamless end-to-end workflow. The final PR was accepted and merged into the official Air documentation. This experiment shows that with the right approach, AI agents are becoming incredibly powerful tools for tangible software development tasks.\nYou can read my full, detailed review of the entire process here: [Link to your blog post]\n#AI #AIAgents #DeveloperTools #SoftwareDevelopment #OpenSource #AMP #ContextEngineering #FutureOfCoding\n\n\n\nThe blog post title card for the AMP tool review"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Context Engineering for Coding",
     "section": "",
-    "text": "I’ve been deep in the AI coding tools space, testing everything from Cursor to Windsurf to see what actually delivers. Just honest reviews and techniques based on real coding sessions.\n\n\n\n\n\n\nGuides: Universal Techniques and Concepts for using and curating context for AI\nUnbiased Reviews: I pay for these tools and try them myself\nReal Code Examples: Hear exactly what tasks I used them\nPractical Insights: What works, what doesn’t, and when to use each tool\nCondensed Information: I’ve condensed the information to the most useful so you don’t need to spend hours on every tool to know what’s worth your time to try for yourself.\n\n\n\n\n\nI teach a course on Context Engineering for Coding - the art of getting AI to write the code you actually want. Learn the patterns that 10x your productivity with any AI coding tool.\nThis website had loads of free content I provide. But if you want even more value, more content, that’s even more organized, taught by me live, and interactive, you can get it here:\n\n\n\n\n\n\nSpecial Offer for Readers\n\n\n\nGet 30% off my Context Engineering course with code ISAAC\nEnroll Now on Maven\n\n\nAlong with the course you’ll get access to a private Discord server where you can ask questions, share your own tips, and get help from me and other students. Once the course started, I will read and respond to all questions in the Discord server."
+    "text": "I’ve been deep in the AI coding tools space, testing everything from Cursor to Windsurf to see what actually delivers. Just honest reviews and techniques based on real coding sessions.\n\n\n\n\n\n\nGuides: Universal Techniques and Concepts for using and curating context for AI\nUnbiased Reviews: I pay for these tools and try them myself\nReal Code Examples: Hear exactly what tasks I used them\nPractical Insights: What works, what doesn’t, and when to use each tool\nCondensed Information: I’ve condensed the information to the most useful so you don’t need to spend hours on every tool to know what’s worth your time to try for yourself.\n\n\n\n\n\nI teach a course on Context Engineering for Coding - the art of getting AI to write the code you actually want. Learn the patterns that 10x your productivity with any AI coding tool.\nThis website had loads of free content I provide. But if you want even more value, more content, that’s even more organized, taught by me live, and interactive, you can get it here:\n\n\n\n\n\n\nSpecial Offer for Readers\n\n\n\nGet 30% off my Context Engineering for Coding course with code ISAAC\nEnroll Now on Maven\n\n\nAlong with the course you’ll get access to a private Discord server where you can ask questions, share your own tips, and get help from me and other students. Once the course started, I will read and respond to all questions in the Discord server."
   },
   {
     "objectID": "index.html#what-youll-find-here",
@@ -74,7 +88,7 @@
     "href": "index.html#want-even-more",
     "title": "Context Engineering for Coding",
     "section": "",
-    "text": "I teach a course on Context Engineering for Coding - the art of getting AI to write the code you actually want. Learn the patterns that 10x your productivity with any AI coding tool.\nThis website had loads of free content I provide. But if you want even more value, more content, that’s even more organized, taught by me live, and interactive, you can get it here:\n\n\n\n\n\n\nSpecial Offer for Readers\n\n\n\nGet 30% off my Context Engineering course with code ISAAC\nEnroll Now on Maven\n\n\nAlong with the course you’ll get access to a private Discord server where you can ask questions, share your own tips, and get help from me and other students. Once the course started, I will read and respond to all questions in the Discord server."
+    "text": "I teach a course on Context Engineering for Coding - the art of getting AI to write the code you actually want. Learn the patterns that 10x your productivity with any AI coding tool.\nThis website had loads of free content I provide. But if you want even more value, more content, that’s even more organized, taught by me live, and interactive, you can get it here:\n\n\n\n\n\n\nSpecial Offer for Readers\n\n\n\nGet 30% off my Context Engineering for Coding course with code ISAAC\nEnroll Now on Maven\n\n\nAlong with the course you’ll get access to a private Discord server where you can ask questions, share your own tips, and get help from me and other students. Once the course started, I will read and respond to all questions in the Discord server."
   },
   {
     "objectID": "guides/context-personalization-101.html",

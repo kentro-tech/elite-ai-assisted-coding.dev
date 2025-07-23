@@ -19,7 +19,7 @@
 <generator>quarto-1.7.32</generator>
 <lastBuildDate>Tue, 22 Jul 2025 04:00:00 GMT</lastBuildDate>
 <item>
-  <title>Cursor IDE Reference Guide</title>
+  <title>Cursor Tool Review</title>
   <dc:creator>Isaac Flath</dc:creator>
   <link>https://ai-context-engineering.com/tools-review/cursor.html</link>
   <description><![CDATA[ 
@@ -33,8 +33,7 @@
 </blockquote>
 <section id="overview" class="level1">
 <h1>Overview</h1>
-<p>Cursor is a fork of VS Code that integrates AI assistance throughout the development workflow. It indexes entire codebases to provide context-aware suggestions, completions, and edits.</p>
-<p>It is worth trying because it is a full IDE that gives a great diff experience on AI changes, and is very aggressive with the AI assistance.</p>
+<p>Cursor is a fork of VS Code that integrates AI assistance throughout the development workflow. It is worth trying because it is a full IDE that gives a great diff experience on AI changes, and is very aggressive with the AI assistance. Cursor is one of the tools I use day-to-day for coding and it’s a great tool.</p>
 <div class="columns">
 <div class="column" style="width:20%;">
 <p><img src="https://ai-context-engineering.com/static/profile_img.jpg" alt="Isaac Flath" style="border-radius:50%;width:100%;"></p>
@@ -51,7 +50,7 @@ Special Offer for Readers
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Get <strong>30% off</strong> my Context Engineering course with code <strong>ISAAC</strong></p>
+<p>Get <strong>30% off</strong> my Context Engineering for Coding course with code <strong>ISAAC</strong></p>
 <p><a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="btn btn-primary btn-lg"><strong>Enroll Now on Maven</strong></a></p>
 </div>
 </div>
@@ -147,7 +146,6 @@ Usage Tip
 
  ]]></description>
   <category>IDE</category>
-  <category>Background agent</category>
   <guid>https://ai-context-engineering.com/tools-review/cursor.html</guid>
   <pubDate>Tue, 22 Jul 2025 04:00:00 GMT</pubDate>
   <media:content url="https://ai-context-engineering.com/static/CursorToolReview.png" medium="image" type="image/png" height="81" width="144"/>

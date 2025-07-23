@@ -1,10 +1,10 @@
 ---
-title: "Cursor IDE Reference Guide"
+title: "Cursor Tool Review"
 description: "IDE capabilities, tab completion, background agents, integrations, and terminal assistance"
 image: "/static/CursorToolReview.png"
 author: "Isaac Flath"
 date: "2025-07-22"
-categories: [IDE, Background agent]
+categories: [IDE]
 toc: false
 twitter-card:
     title: "Cursor IDE Reference Guide"
@@ -19,9 +19,7 @@ open-graph:
 
 # Overview
 
-Cursor is a fork of VS Code that integrates AI assistance throughout the development workflow. It indexes entire codebases to provide context-aware suggestions, completions, and edits.
-
-It is worth trying because it is a full IDE that gives a great diff experience on AI changes, and is very aggressive with the AI assistance.
+Cursor is a fork of VS Code that integrates AI assistance throughout the development workflow.  It is worth trying because it is a full IDE that gives a great diff experience on AI changes, and is very aggressive with the AI assistance.  Cursor is one of the tools I use day-to-day for coding and it's a great tool.
 
 ::: {.columns}
 :::: {.column width="20%"}
@@ -32,7 +30,7 @@ It is worth trying because it is a full IDE that gives a great diff experience o
 :::: {.column width="75%"}
 :::{.callout-tip}
 ## Special Offer for Readers
-Get **30% off** my Context Engineering course with code **ISAAC**
+Get **30% off** my Context Engineering for Coding course with code **ISAAC**
 
 [**Enroll Now on Maven**](https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC){.btn .btn-primary .btn-lg}
 :::
