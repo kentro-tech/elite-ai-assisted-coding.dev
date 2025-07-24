@@ -4,16 +4,16 @@ draft: true
 description: "AMP Agent review and testing on real OSS issue I was asked to do by the library creator"
 image: "/static/AmpToolReview.png"
 author: "Isaac Flath"
-date: "2025-07-24"
+date: "2025-07-28"
 categories: [Coding Agent]
 toc: false
 twitter-card:
-    title: "Cursor IDE Reference Guide"
-    description: "IDE capabilities, tab completion, background agents, integrations, and terminal assistance"
+    title: "AMP Code Agent Tool Review"
+    description: "AMP Agent review and testing on real OSS issue I was asked to do by the library creator"
     image: "/static/AmpToolReview.png"
 open-graph:
-    title: "Cursor IDE Reference Guide"
-    description: "IDE capabilities, tab completion, background agents, integrations, and terminal assistance"
+    title: "AMP Code Agent Tool Review"
+    description: "AMP Agent review and testing on real OSS issue I was asked to do by the library creator"
 ---
 
 I decided to try AMP, a new AI agent tool. I gave it a real-world task: creating the "Layouts Concepts" documentation for a new open-source web framework called Air. This involved both coding (because I needed to understand it myself by building some examples) and then actually writing the documentation on it. It was something that I actually needed to get done, making it a nice realistic task to test whether it could be useful to me.  The PR was accepted and merged.

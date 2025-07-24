@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Isaac Flath">
+<meta name="dcterms.date" content="2025-07-24">
+<meta name="description" content="Gemini CLI review and testing on image/video file analysis and renaming, and desktop app generation">
 
-<title>twitter_thread_amp_review – Isaac Flath</title>
+<title>Gemini CLI Tool Review – Isaac Flath</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,27 +26,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark-a9957ab5e8b7c67643b7e2e6b5c1e54e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-a9957ab5e8b7c67643b7e2e6b5c1e54e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-c1fac2584b48ed01fb6e278e36375074.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -73,6 +76,18 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
+<meta property="og:title" content="Gemini CLI Tool Review">
+<meta property="og:description" content="Gemini CLI review and testing on image/video file analysis and renaming, and desktop app generation">
+<meta property="og:image" content="https://ai-context-engineering.com/static/GeminiCliToolReview.png">
+<meta property="og:site_name" content="Isaac Flath">
+<meta property="og:image:height" content="1800">
+<meta property="og:image:width" content="3200">
+<meta name="twitter:title" content="Gemini CLI Tool Review">
+<meta name="twitter:description" content="Gemini CLI review and testing on image/video file analysis and renaming, and desktop app generation">
+<meta name="twitter:image" content="https://ai-context-engineering.com/static/GeminiCliToolReview.png">
+<meta name="twitter:image-height" content="1800">
+<meta name="twitter:image-width" content="3200">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
@@ -244,7 +259,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Isaac Flath</span>
     </a>
   </div>
@@ -255,11 +270,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./tool-reviews.html"> 
+    <a class="nav-link" href="../tool-reviews.html"> 
 <span class="menu-text">Tool Reviews</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./guides.html"> 
+    <a class="nav-link" href="../guides.html"> 
 <span class="menu-text">Guides</span></a>
   </li>  
 </ul>
@@ -276,50 +291,189 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
 
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Gemini CLI Tool Review</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Terminal Agent</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Gemini CLI review and testing on image/video file analysis and renaming, and desktop app generation
+  </div>
+</div>
 
 
+<div class="quarto-title-meta">
 
-<section id="twitter-thread-amp-tool-review" class="level3">
-<h3 class="anchored" data-anchor-id="twitter-thread-amp-tool-review">Twitter Thread: AMP Tool Review</h3>
-<p><strong>Tweet 1/8</strong></p>
-<p>I put a new AI agent, AMP, to a real-world test. The task? Create the “Layouts Concepts” guide for Air, a brand-new OSS web framework. This meant I had to code examples <em>and</em> write the docs for them. The PR was accepted &amp; merged!</p>
-<p>Here’s how it went. 🧵</p>
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Isaac Flath </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">July 24, 2025</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<p>For the next tool review in my series, I decided to use the Gemini CLI.</p>
+<section id="the-task" class="level2">
+<h2 class="anchored" data-anchor-id="the-task">The Task</h2>
+<p>My desktop is cluttered with ~ a billion unnamed screenshots and screen recordings. I’ve wanted to clean them for a while, but renaming them is a huge pain.</p>
+<p>Because the Gemini models are to be the best at multimodal tasks like image and video, Gemini CLI felt like it should be a good choice. I decided to tackle this in 2 phases:</p>
+<ol type="1">
+<li>Try using the Gemini CLI out of the box to rename this files with 0 effort by looking at image and video content.</li>
+<li>Create a desktop app that has file navigations and single vs bulk file renaming to make a genral solution.</li>
+</ol>
+<p>That way I should get a good feel for the tool’s capabilities and learn a bit about building a desktop app. This review is part of my research for my “Context Engineering for Coding” course, where I teach how to get the most out of AI tools.</p>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="../static/profile_img.jpg" alt="Isaac Flath" style="border-radius:50%;width:100%;"></p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:75%;">
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Special Offer for Readers
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Get <strong>30% off</strong> my Context Engineering for Coding course with code <strong>ISAAC</strong></p>
+<p><a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="btn btn-primary btn-lg"><strong>Enroll Now on Maven</strong></a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/QajG6YLoF5A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="the-messy-desktop" class="level2">
+<h2 class="anchored" data-anchor-id="the-messy-desktop">The Messy Desktop</h2>
+<p>As you can see, I have a lot of unnamed screenshots and I have no idea what they are. I’ve tried to rewrite them but it’s a pain so I didn’t get far [00:01:09]</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../static/AmpToolReview.png" class="img-fluid figure-img"></p>
-<figcaption>The blog post title card for the AMP tool review</figcaption>
+<p><img src="./gemini-cli/0-file-list-2025-07-03-to-2025-07-23.png" class="img-fluid figure-img"></p>
+<figcaption>A list of files with generic names like “Screenshot 2025-07-23…”</figcaption>
 </figure>
 </div>
-<p><strong>Tweet 2/8</strong></p>
-<p>The challenge: Air is a new framework currently in alpha. This means it’s not in any major AI model’s training data, making it a perfect test for an agent’s ability to learn from the code I provide in my editor.</p>
-<p><strong>Tweet 3/8</strong></p>
-<p>To start, I needed to learn the framework myself. I tasked AMP with porting a to-do app I’d built in another framework (FastHTML) over to Air. I just gave it both projects in my workspace and a prompt. It successfully generated a working app.</p>
-<p><strong>Tweet 4/8</strong></p>
-<p>Well, <em>almost</em> working. The first version had a bug with database writes. I copied the server logs, fed them back to AMP, and it identified and fixed the issue on the first try. Impressive.</p>
+</section>
+<section id="using-the-gemini-cli-for-renaming" class="level2">
+<h2 class="anchored" data-anchor-id="using-the-gemini-cli-for-renaming">Using the Gemini CLI for Renaming</h2>
+<p>I fired up the Gemini CLI and gave it the task of renaming the files without any code. [00:01:24] I was pleased to see that it did a great job of analyzing the content of the images and videos and suggesting meaningful names.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../tools-review/amp/screenshot_03_06.png" class="img-fluid figure-img"></p>
-<figcaption>A screenshot showing AMP’s response after fixing the database error.</figcaption>
+<p><img src="./gemini-cli/1-gemini-terminal-screenshot.png" class="img-fluid figure-img"></p>
+<figcaption>Gemini CLI terminal showing the model analyzing screenshots</figcaption>
 </figure>
 </div>
-<p><strong>Tweet 5/8</strong></p>
-<p>With a working app, I understood the layout patterns. Next, I prompted AMP to write the “Layouts Concepts Guide” based on the code it just helped create.</p>
-<p><strong>Tweet 6/8</strong></p>
-<p>This is where the “human in the loop” part comes in. The first draft was a great start but went way off-scope, adding sections on forms, error pages, etc. My main job was simplification—deleting large chunks and refining the code examples.</p>
+<p>The CLI renamed a batch of files, and the new names were descriptive and accurate. [00:01:42]</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="../tools-review/amp/screenshot_07_00.png" class="img-fluid figure-img"></p>
-<figcaption>A screenshot showing the final, clean structure of the documentation that was merged.</figcaption>
+<p><img src="./gemini-cli/2-five-screenshots-renamed.png" class="img-fluid figure-img"></p>
+<figcaption>Five screenshots renamed with descriptive names</figcaption>
 </figure>
 </div>
-<p><strong>Tweet 7/8</strong></p>
-<p>The editing process was still way faster than starting from scratch. The final guide was clean, well-structured, and is now part of the official Air documentation.</p>
-<p><strong>Tweet 8/8</strong></p>
-<p>Final verdict: For the coding task, AMP was a huge win. For documentation, it was helpful but comparable to other top-tier models. The real power was the seamless workflow from code generation to writing.</p>
-<p>Read the full, detailed breakdown here: [Link to your blog post]</p>
+<p>Here’s another example of the CLI renaming a screenshot with a descriptive name. [00:01:39]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./gemini-cli/3-rename-screenshot-example.png" class="img-fluid figure-img"></p>
+<figcaption>A screenshot being renamed by the Gemini CLI</figcaption>
+</figure>
+</div>
+<p>The tool also handled video files (<code>.mov</code>) just as effectively as images. [00:02:00]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./gemini-cli/3-screen-recordings-analysis-rename.png" class="img-fluid figure-img"></p>
+<figcaption>The Gemini CLI analyzing and renaming screen recordings</figcaption>
+</figure>
+</div>
+<p>It didn’t keep track of the work progress well however. I found that the CLI would sometimes stop a lot before completing the entire task, and I had to remind it to do a <code>ls | grep Screenshot</code> of the directory to see if there’s more to do to get it to continue. [00:02:15]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./gemini-cli/4-terminal-screenshot-list-2025-07-06.png" class="img-fluid figure-img"></p>
+<figcaption>A terminal screenshot showing a list of remaining files to be renamed</figcaption>
+</figure>
+</div>
+</section>
+<section id="building-a-desktop-app-with-the-gemini-cli" class="level2">
+<h2 class="anchored" data-anchor-id="building-a-desktop-app-with-the-gemini-cli">Building a Desktop App with the Gemini CLI</h2>
+<p>Once I confirmed that the core functionality was possible, I moved on to building a desktop application to make this renaming process easier in the future. I hadn’t built a desktop app before, so this was fun.</p>
+<p>A feature I particularly liked was the ability to modify the proposed changes in an external editor before applying them. [00:03:09] This gave me more a bit more control.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./gemini-cli/5-external-editor-prompt.png" class="img-fluid figure-img"></p>
+<figcaption>The Gemini CLI prompt to modify a diff in an external editor</figcaption>
+</figure>
+</div>
+<p>I chose to open in cursor, and it gave me an editable diff view I could modify before the changes are applied.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./gemini-cli/6-python-folder-selection-code-snippet.png" class="img-fluid figure-img"></p>
+<figcaption>A Python code snippet for folder selection</figcaption>
+</figure>
+</div>
+<p>The Gemini CLI also generated a plan for the application before it started coding, which is nice. Claude Code and many other tools do this too. But it’s still nice. [00:03:33]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./gemini-cli/10-AI-File-Renamer-Plan.png" class="img-fluid figure-img"></p>
+<figcaption>The AI’s plan for the file renamer application</figcaption>
+</figure>
+</div>
+<p>The end result was a functional-ish, but very buggy, desktop application. I was able to select a directory, have the AI suggest new names for the files, and then apply those names. [00:03:54]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./gemini-cli/11-AI-File-Renamer-Screenshot.png" class="img-fluid figure-img"></p>
+<figcaption>The AI-generated file renamer application</figcaption>
+</figure>
+</div>
+<p>The application included logging, which was helpful. [00:04:42]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./gemini-cli/12-AI-file-renamer-log.png" class="img-fluid figure-img"></p>
+<figcaption>The log file for the AI file renamer application</figcaption>
+</figure>
+</div>
+</section>
+<section id="code-quality-and-bugs" class="level2">
+<h2 class="anchored" data-anchor-id="code-quality-and-bugs">Code Quality and Bugs</h2>
+<p>While the app “worked,” it had several major bugs.</p>
+<ul>
+<li>I couldn’t select individual files, and the app would often hang after processing one directory. [00:04:06]</li>
+<li>After doing it’s first bulk rename operation it would somehow get into a state where no additional renamings would work so the whole app would need to be restarted. There were no errors logged.</li>
+</ul>
+<p>When I dove into the code more carefully, I found the common AI code culprits such as overuse of generic <code>try...except</code> blocks that would catch exceptions and simply print them to the console. [00:04:57] This hides bugs and make the application less robust and harder to fix but appear to work at a glance.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="./gemini-cli/12-Exception-Handlers.png" class="img-fluid figure-img"></p>
+<figcaption>A code snippet showing generic exception handlers</figcaption>
+</figure>
+</div>
+</section>
+<section id="final-thoughts" class="level1">
+<h1>Final Thoughts</h1>
+<p>Overall, I have found the Gemini CLI to be pretty useful, especially for multimodal tasks like analyzing images and videos. [00:06:36] Its ability to generate descriptive names for my screenshots and videos with 0 effort was really nice. The code it generated for the desktop application was a good starting point and a valuable learning tool, I don’t really think it’s better than claude code.</p>
+<p>The code was understandable enough and I followed along with the code generation process enough that I understood what it was doing a learned a bit about making a desktop app. However, if I were to build a desktop app for this for real I would start over rather than continue to work with this code.</p>
+<p>While not included in this use, for tasks like content creation, writing, and quick, one-off multimodal tasks, Gemini is fantastic. For software development, I think there are better options.</p>
 
 
 </section>

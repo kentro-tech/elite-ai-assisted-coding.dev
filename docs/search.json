@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "twitter_thread_amp_review.html",
-    "href": "twitter_thread_amp_review.html",
-    "title": "Isaac Flath",
-    "section": "",
-    "text": "Twitter Thread: AMP Tool Review\nTweet 1/8\nI put a new AI agent, AMP, to a real-world test. The task? Create the “Layouts Concepts” guide for Air, a brand-new OSS web framework. This meant I had to code examples and write the docs for them. The PR was accepted & merged!\nHere’s how it went. 🧵\n\n\n\nThe blog post title card for the AMP tool review\n\n\nTweet 2/8\nThe challenge: Air is a new framework currently in alpha. This means it’s not in any major AI model’s training data, making it a perfect test for an agent’s ability to learn from the code I provide in my editor.\nTweet 3/8\nTo start, I needed to learn the framework myself. I tasked AMP with porting a to-do app I’d built in another framework (FastHTML) over to Air. I just gave it both projects in my workspace and a prompt. It successfully generated a working app.\nTweet 4/8\nWell, almost working. The first version had a bug with database writes. I copied the server logs, fed them back to AMP, and it identified and fixed the issue on the first try. Impressive.\n\n\n\nA screenshot showing AMP’s response after fixing the database error.\n\n\nTweet 5/8\nWith a working app, I understood the layout patterns. Next, I prompted AMP to write the “Layouts Concepts Guide” based on the code it just helped create.\nTweet 6/8\nThis is where the “human in the loop” part comes in. The first draft was a great start but went way off-scope, adding sections on forms, error pages, etc. My main job was simplification—deleting large chunks and refining the code examples.\n\n\n\nA screenshot showing the final, clean structure of the documentation that was merged.\n\n\nTweet 7/8\nThe editing process was still way faster than starting from scratch. The final guide was clean, well-structured, and is now part of the official Air documentation.\nTweet 8/8\nFinal verdict: For the coding task, AMP was a huge win. For documentation, it was helpful but comparable to other top-tier models. The real power was the seamless workflow from code generation to writing.\nRead the full, detailed breakdown here: [Link to your blog post]"
-  },
-  {
     "objectID": "tools-review/cursor.html",
     "href": "tools-review/cursor.html",
     "title": "Cursor Tool Review",
@@ -60,14 +53,7 @@
     "href": "tool-reviews.html",
     "title": "Tool Reviews",
     "section": "",
-    "text": "Special Offer for Readers\n\n\n\nGet 30% off my Context Engineering for Coding course with code ISAAC\nEnroll Now on Maven\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Categories\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nJul 22, 2025\n\n\nCursor Tool Review\n\n\nIDE\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "linkedin_post_amp_review.html",
-    "href": "linkedin_post_amp_review.html",
-    "title": "Isaac Flath",
-    "section": "",
-    "text": "LinkedIn Post: AMP Tool Review\nTitle: Putting AI to the Test: From Code Generation to Documentation with the AMP Agent\nI recently ran an experiment to see how a modern AI agent handles a real-world, start-to-finish open-source contribution. I used AMP to create the “Layouts Concepts” guide for Air, a new web framework. The task was a great test because it required both generating code to understand the framework and then writing the official documentation based on that code.\nThe results were impressive and highlighted the real strengths (and current limitations) of AI-assisted development.\nThe Process:\n\nCode Generation: I started by asking AMP to port a to-do application from another framework (FastHTML) to Air. Since Air is in alpha and not in public training data, the agent had to rely entirely on the source code I provided in my workspace. It successfully generated a functional application.\nAI-Powered Debugging: The initial app had a bug in the database logic. I simply fed the server logs back into AMP, and it correctly identified and fixed the error on its first attempt.\nDocumentation Writing: With a working application providing the necessary patterns, I then tasked AMP with writing the concepts guide.\n\nThe “Human in the Loop” Reality:\nWhile AMP dramatically accelerated the process, it wasn’t a “one-click” solution. The agent’s first draft of the documentation was a solid foundation but required significant manual refinement. I had to: - Remove large sections of irrelevant, out-of-scope content that the agent added. - Simplify and consolidate the code examples to make them clearer for educational purposes. - Restructure the narrative to flow logically for a developer audience.\nThis editing phase was crucial, but it was still far more efficient than writing the entire guide from a blank page.\nFinal Verdict:\nFor the coding and debugging portion, AMP was a clear productivity multiplier. For the documentation writing, it provided a strong starting point, comparable to what I’d expect from other top models like Claude 3 Opus or Gemini 1.5 Pro.\nThe real win was the seamless end-to-end workflow. The final PR was accepted and merged into the official Air documentation. This experiment shows that with the right approach, AI agents are becoming incredibly powerful tools for tangible software development tasks.\nYou can read my full, detailed review of the entire process here: [Link to your blog post]\n#AI #AIAgents #DeveloperTools #SoftwareDevelopment #OpenSource #AMP #ContextEngineering #FutureOfCoding\n\n\n\nThe blog post title card for the AMP tool review"
+    "text": "Special Offer for Readers\n\n\n\nGet 30% off my Context Engineering for Coding course with code ISAAC\nEnroll Now on Maven\n\n\n\n\n\n\n\n\n\n\n   \n    \n    \n      Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Title\n      \n      \n        Categories\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\n\nTitle\n\n\n\nCategories\n\n\n\n\n\n\n\n\nJul 24, 2025\n\n\nGemini CLI Tool Review\n\n\nTerminal Agent\n\n\n\n\n\n\nJul 22, 2025\n\n\nCursor Tool Review\n\n\nIDE\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html",
@@ -138,5 +124,47 @@
     "title": "Optimize Your Dev Setup For Evals w/ Cursor Rules & MCP",
     "section": "6 Personalized Context",
     "text": "6 Personalized Context\nPersonalized context is the most time consuming and the most effective. It’s not something anyone can create for you because it matches your taste and decisions made for you specific project.\n\n\n\n\n\n\nGood For\n\n\n\n\nYou know you’re going to be using this thing for months\nIt’s worthwhile to invest a bit of time for better AI assistance\n\n\n\nLet’s look at some examples of diffs that you may want to do to your context for more personalized context.\n\n_BraintrustPhoenixInspect\n\n\n\n\n\n\n6.0.0.1 Use Case Specific Context\n\n\n\nUse case specific examples\n\n\n\n\n6.0.0.2 Reducing Context Size\n\n\n\nReducing context for efficiency\n\n\n\n\n6.0.0.3 Opinionated Best Practices\n\n\n\nDefining coding standards\n\n\n\n\n6.0.0.4 Multi-Language Support\n\n\n\nSupporting multiple languages\n\n\n\n\n6.0.0.5 Code Style Preferences\n\n\n\nInsert your coding style\n\n\n\n\n6.0.0.6 Performance Considerations\n\n\n\nRemoving timing-specific code\n\n\n\n\n\n\n6.0.0.7 Fix Formatting\n\n\n\nFix Formatting\n\n\n\n\n6.0.0.8 Rm hosted options you’re not using\n\n\n\nRemove Cloud Hosting\n\n\n\n\n6.0.0.9 Put in project specific info\n\n\n\nPut in Real Endpoints\n\n\n\n\n6.0.0.10 Remove Unused Languages\n\n\n\nRemove Typescript\n\n\n\n\n\n\n6.0.0.11 Human prose -&gt; AI Instruction\n\n\n\nChange tip to instruction for env var clarity\n\n\n\n\n6.0.0.12 Remove examples not relevant to you\n\n\n\nRemove non-relevant examples"
+  },
+  {
+    "objectID": "tools-review/gemini-cli.html",
+    "href": "tools-review/gemini-cli.html",
+    "title": "Gemini CLI Tool Review",
+    "section": "",
+    "text": "For the next tool review in my series, I decided to use the Gemini CLI."
+  },
+  {
+    "objectID": "tools-review/gemini-cli.html#the-task",
+    "href": "tools-review/gemini-cli.html#the-task",
+    "title": "Gemini CLI Tool Review",
+    "section": "The Task",
+    "text": "The Task\nMy desktop is cluttered with ~ a billion unnamed screenshots and screen recordings. I’ve wanted to clean them for a while, but renaming them is a huge pain.\nBecause the Gemini models are to be the best at multimodal tasks like image and video, Gemini CLI felt like it should be a good choice. I decided to tackle this in 2 phases:\n\nTry using the Gemini CLI out of the box to rename this files with 0 effort by looking at image and video content.\nCreate a desktop app that has file navigations and single vs bulk file renaming to make a genral solution.\n\nThat way I should get a good feel for the tool’s capabilities and learn a bit about building a desktop app. This review is part of my research for my “Context Engineering for Coding” course, where I teach how to get the most out of AI tools.\n\n\n\n\n\n\n\n\n\n\n\n\nSpecial Offer for Readers\n\n\n\nGet 30% off my Context Engineering for Coding course with code ISAAC\nEnroll Now on Maven"
+  },
+  {
+    "objectID": "tools-review/gemini-cli.html#the-messy-desktop",
+    "href": "tools-review/gemini-cli.html#the-messy-desktop",
+    "title": "Gemini CLI Tool Review",
+    "section": "The Messy Desktop",
+    "text": "The Messy Desktop\nAs you can see, I have a lot of unnamed screenshots and I have no idea what they are. I’ve tried to rewrite them but it’s a pain so I didn’t get far [00:01:09]\n\n\n\nA list of files with generic names like “Screenshot 2025-07-23…”"
+  },
+  {
+    "objectID": "tools-review/gemini-cli.html#using-the-gemini-cli-for-renaming",
+    "href": "tools-review/gemini-cli.html#using-the-gemini-cli-for-renaming",
+    "title": "Gemini CLI Tool Review",
+    "section": "Using the Gemini CLI for Renaming",
+    "text": "Using the Gemini CLI for Renaming\nI fired up the Gemini CLI and gave it the task of renaming the files without any code. [00:01:24] I was pleased to see that it did a great job of analyzing the content of the images and videos and suggesting meaningful names.\n\n\n\nGemini CLI terminal showing the model analyzing screenshots\n\n\nThe CLI renamed a batch of files, and the new names were descriptive and accurate. [00:01:42]\n\n\n\nFive screenshots renamed with descriptive names\n\n\nHere’s another example of the CLI renaming a screenshot with a descriptive name. [00:01:39]\n\n\n\nA screenshot being renamed by the Gemini CLI\n\n\nThe tool also handled video files (.mov) just as effectively as images. [00:02:00]\n\n\n\nThe Gemini CLI analyzing and renaming screen recordings\n\n\nIt didn’t keep track of the work progress well however. I found that the CLI would sometimes stop a lot before completing the entire task, and I had to remind it to do a ls | grep Screenshot of the directory to see if there’s more to do to get it to continue. [00:02:15]\n\n\n\nA terminal screenshot showing a list of remaining files to be renamed"
+  },
+  {
+    "objectID": "tools-review/gemini-cli.html#building-a-desktop-app-with-the-gemini-cli",
+    "href": "tools-review/gemini-cli.html#building-a-desktop-app-with-the-gemini-cli",
+    "title": "Gemini CLI Tool Review",
+    "section": "Building a Desktop App with the Gemini CLI",
+    "text": "Building a Desktop App with the Gemini CLI\nOnce I confirmed that the core functionality was possible, I moved on to building a desktop application to make this renaming process easier in the future. I hadn’t built a desktop app before, so this was fun.\nA feature I particularly liked was the ability to modify the proposed changes in an external editor before applying them. [00:03:09] This gave me more a bit more control.\n\n\n\nThe Gemini CLI prompt to modify a diff in an external editor\n\n\nI chose to open in cursor, and it gave me an editable diff view I could modify before the changes are applied.\n\n\n\nA Python code snippet for folder selection\n\n\nThe Gemini CLI also generated a plan for the application before it started coding, which is nice. Claude Code and many other tools do this too. But it’s still nice. [00:03:33]\n\n\n\nThe AI’s plan for the file renamer application\n\n\nThe end result was a functional-ish, but very buggy, desktop application. I was able to select a directory, have the AI suggest new names for the files, and then apply those names. [00:03:54]\n\n\n\nThe AI-generated file renamer application\n\n\nThe application included logging, which was helpful. [00:04:42]\n\n\n\nThe log file for the AI file renamer application"
+  },
+  {
+    "objectID": "tools-review/gemini-cli.html#code-quality-and-bugs",
+    "href": "tools-review/gemini-cli.html#code-quality-and-bugs",
+    "title": "Gemini CLI Tool Review",
+    "section": "Code Quality and Bugs",
+    "text": "Code Quality and Bugs\nWhile the app “worked,” it had several major bugs.\n\nI couldn’t select individual files, and the app would often hang after processing one directory. [00:04:06]\nAfter doing it’s first bulk rename operation it would somehow get into a state where no additional renamings would work so the whole app would need to be restarted. There were no errors logged.\n\nWhen I dove into the code more carefully, I found the common AI code culprits such as overuse of generic try...except blocks that would catch exceptions and simply print them to the console. [00:04:57] This hides bugs and make the application less robust and harder to fix but appear to work at a glance.\n\n\n\nA code snippet showing generic exception handlers"
   }
 ]

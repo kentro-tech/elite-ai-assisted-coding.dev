@@ -17,7 +17,168 @@
 <width>144</width>
 </image>
 <generator>quarto-1.7.32</generator>
-<lastBuildDate>Tue, 22 Jul 2025 04:00:00 GMT</lastBuildDate>
+<lastBuildDate>Thu, 24 Jul 2025 04:00:00 GMT</lastBuildDate>
+<item>
+  <title>Gemini CLI Tool Review</title>
+  <dc:creator>Isaac Flath</dc:creator>
+  <link>https://ai-context-engineering.com/tools-review/gemini-cli.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>For the next tool review in my series, I decided to use the Gemini CLI.</p>
+<section id="the-task" class="level2">
+<h2 class="anchored" data-anchor-id="the-task">The Task</h2>
+<p>My desktop is cluttered with ~ a billion unnamed screenshots and screen recordings. I’ve wanted to clean them for a while, but renaming them is a huge pain.</p>
+<p>Because the Gemini models are to be the best at multimodal tasks like image and video, Gemini CLI felt like it should be a good choice. I decided to tackle this in 2 phases:</p>
+<ol type="1">
+<li>Try using the Gemini CLI out of the box to rename this files with 0 effort by looking at image and video content.</li>
+<li>Create a desktop app that has file navigations and single vs bulk file renaming to make a genral solution.</li>
+</ol>
+<p>That way I should get a good feel for the tool’s capabilities and learn a bit about building a desktop app. This review is part of my research for my “Context Engineering for Coding” course, where I teach how to get the most out of AI tools.</p>
+<div class="columns">
+<div class="column" style="width:20%;">
+<p><img src="https://ai-context-engineering.com/static/profile_img.jpg" alt="Isaac Flath" style="border-radius:50%;width:100%;"></p>
+</div><div class="column" style="width:5%;">
+
+</div><div class="column" style="width:75%;">
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Special Offer for Readers
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Get <strong>30% off</strong> my Context Engineering for Coding course with code <strong>ISAAC</strong></p>
+<p><a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="btn btn-primary btn-lg"><strong>Enroll Now on Maven</strong></a></p>
+</div>
+</div>
+</div>
+</div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/QajG6YLoF5A" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="the-messy-desktop" class="level2">
+<h2 class="anchored" data-anchor-id="the-messy-desktop">The Messy Desktop</h2>
+<p>As you can see, I have a lot of unnamed screenshots and I have no idea what they are. I’ve tried to rewrite them but it’s a pain so I didn’t get far [00:01:09]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/0-file-list-2025-07-03-to-2025-07-23.png" class="img-fluid figure-img"></p>
+<figcaption>A list of files with generic names like “Screenshot 2025-07-23…”</figcaption>
+</figure>
+</div>
+</section>
+<section id="using-the-gemini-cli-for-renaming" class="level2">
+<h2 class="anchored" data-anchor-id="using-the-gemini-cli-for-renaming">Using the Gemini CLI for Renaming</h2>
+<p>I fired up the Gemini CLI and gave it the task of renaming the files without any code. [00:01:24] I was pleased to see that it did a great job of analyzing the content of the images and videos and suggesting meaningful names.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/1-gemini-terminal-screenshot.png" class="img-fluid figure-img"></p>
+<figcaption>Gemini CLI terminal showing the model analyzing screenshots</figcaption>
+</figure>
+</div>
+<p>The CLI renamed a batch of files, and the new names were descriptive and accurate. [00:01:42]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/2-five-screenshots-renamed.png" class="img-fluid figure-img"></p>
+<figcaption>Five screenshots renamed with descriptive names</figcaption>
+</figure>
+</div>
+<p>Here’s another example of the CLI renaming a screenshot with a descriptive name. [00:01:39]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/3-rename-screenshot-example.png" class="img-fluid figure-img"></p>
+<figcaption>A screenshot being renamed by the Gemini CLI</figcaption>
+</figure>
+</div>
+<p>The tool also handled video files (<code>.mov</code>) just as effectively as images. [00:02:00]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/3-screen-recordings-analysis-rename.png" class="img-fluid figure-img"></p>
+<figcaption>The Gemini CLI analyzing and renaming screen recordings</figcaption>
+</figure>
+</div>
+<p>It didn’t keep track of the work progress well however. I found that the CLI would sometimes stop a lot before completing the entire task, and I had to remind it to do a <code>ls | grep Screenshot</code> of the directory to see if there’s more to do to get it to continue. [00:02:15]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/4-terminal-screenshot-list-2025-07-06.png" class="img-fluid figure-img"></p>
+<figcaption>A terminal screenshot showing a list of remaining files to be renamed</figcaption>
+</figure>
+</div>
+</section>
+<section id="building-a-desktop-app-with-the-gemini-cli" class="level2">
+<h2 class="anchored" data-anchor-id="building-a-desktop-app-with-the-gemini-cli">Building a Desktop App with the Gemini CLI</h2>
+<p>Once I confirmed that the core functionality was possible, I moved on to building a desktop application to make this renaming process easier in the future. I hadn’t built a desktop app before, so this was fun.</p>
+<p>A feature I particularly liked was the ability to modify the proposed changes in an external editor before applying them. [00:03:09] This gave me more a bit more control.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/5-external-editor-prompt.png" class="img-fluid figure-img"></p>
+<figcaption>The Gemini CLI prompt to modify a diff in an external editor</figcaption>
+</figure>
+</div>
+<p>I chose to open in cursor, and it gave me an editable diff view I could modify before the changes are applied.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/6-python-folder-selection-code-snippet.png" class="img-fluid figure-img"></p>
+<figcaption>A Python code snippet for folder selection</figcaption>
+</figure>
+</div>
+<p>The Gemini CLI also generated a plan for the application before it started coding, which is nice. Claude Code and many other tools do this too. But it’s still nice. [00:03:33]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/10-AI-File-Renamer-Plan.png" class="img-fluid figure-img"></p>
+<figcaption>The AI’s plan for the file renamer application</figcaption>
+</figure>
+</div>
+<p>The end result was a functional-ish, but very buggy, desktop application. I was able to select a directory, have the AI suggest new names for the files, and then apply those names. [00:03:54]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/11-AI-File-Renamer-Screenshot.png" class="img-fluid figure-img"></p>
+<figcaption>The AI-generated file renamer application</figcaption>
+</figure>
+</div>
+<p>The application included logging, which was helpful. [00:04:42]</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/12-AI-file-renamer-log.png" class="img-fluid figure-img"></p>
+<figcaption>The log file for the AI file renamer application</figcaption>
+</figure>
+</div>
+</section>
+<section id="code-quality-and-bugs" class="level2">
+<h2 class="anchored" data-anchor-id="code-quality-and-bugs">Code Quality and Bugs</h2>
+<p>While the app “worked,” it had several major bugs.</p>
+<ul>
+<li>I couldn’t select individual files, and the app would often hang after processing one directory. [00:04:06]</li>
+<li>After doing it’s first bulk rename operation it would somehow get into a state where no additional renamings would work so the whole app would need to be restarted. There were no errors logged.</li>
+</ul>
+<p>When I dove into the code more carefully, I found the common AI code culprits such as overuse of generic <code>try...except</code> blocks that would catch exceptions and simply print them to the console. [00:04:57] This hides bugs and make the application less robust and harder to fix but appear to work at a glance.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/12-Exception-Handlers.png" class="img-fluid figure-img"></p>
+<figcaption>A code snippet showing generic exception handlers</figcaption>
+</figure>
+</div>
+</section>
+<section id="final-thoughts" class="level1">
+<h1>Final Thoughts</h1>
+<p>Overall, I have found the Gemini CLI to be pretty useful, especially for multimodal tasks like analyzing images and videos. [00:06:36] Its ability to generate descriptive names for my screenshots and videos with 0 effort was really nice. The code it generated for the desktop application was a good starting point and a valuable learning tool, I don’t really think it’s better than claude code.</p>
+<p>The code was understandable enough and I followed along with the code generation process enough that I understood what it was doing a learned a bit about making a desktop app. However, if I were to build a desktop app for this for real I would start over rather than continue to work with this code.</p>
+<p>While not included in this use, for tasks like content creation, writing, and quick, one-off multimodal tasks, Gemini is fantastic. For software development, I think there are better options.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Terminal Agent</category>
+  <guid>https://ai-context-engineering.com/tools-review/gemini-cli.html</guid>
+  <pubDate>Thu, 24 Jul 2025 04:00:00 GMT</pubDate>
+  <media:content url="https://ai-context-engineering.com/static/GeminiCliToolReview.png" medium="image" type="image/png" height="81" width="144"/>
+</item>
 <item>
   <title>Cursor Tool Review</title>
   <dc:creator>Isaac Flath</dc:creator>
