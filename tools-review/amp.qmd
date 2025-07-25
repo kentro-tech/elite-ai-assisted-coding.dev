@@ -67,9 +67,11 @@ I gave AMP the task of rewriting these FastHTML examples for Air, providing it w
 
 I described what I wanted and pointed AMP to the repositories. It was able to see both directories in my workspace and looked through the source code of both. \[00:02:36\].
 
-It didn't do anything malicious, but I don't remember giving it any permissions and it started making files and editing them. Just something to be aware of.
+It didn't do anything malicious, but I don't remember giving it any permissions and it started making files and editing them. It caught me a bit by surprise, but also meant that I moved faster than I would have otherwise.  I was a bit worried about it in the moment, but given the results I think it saved me quite a bit of time.
 
 ![Screenshot at 02:30](./amp/screenshot_02_30.png)
+
+A second thing that irked me initially was the default of `enter` being to create a new line in the prompt rather than submitting.  By the end of the process I began to appreciate that, because it meant more natural creation of more detailed prompts and instructions.  It's an unsual design choice, but I think it's a good one.
 
 ## Debugging with AMP
 
