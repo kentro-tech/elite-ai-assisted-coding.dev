@@ -20,6 +20,8 @@ I decided to try AMP, a new AI agent tool. I gave it a real-world task: creating
 
 This review covers the entire process, from setting up AMP and generating a working application to writing the final documentation and seeing diffs and explaining what I needed to do myself and how editing the Agent's output felt.
 
+TLDR: It was a very powerful coding tool that did much better than I expected and is worth trying.
+
 ::: {.columns}
 :::: {.column width="20%"}
 <img src="../static/profile_img.jpg" alt="Isaac Flath" style="border-radius:50%;width:100%;">
