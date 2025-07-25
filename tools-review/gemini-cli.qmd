@@ -26,7 +26,7 @@ Because the Gemini models are to be the best at multimodal tasks like image and 
 1. Try using the Gemini CLI out of the box to rename this files with 0 effort by looking at image and video content.
 2. Create a desktop app that has file navigations and single vs bulk file renaming to make a genral solution.
 
-That way I should get a good feel for the tool's capabilities and learn a bit about building a desktop app.  This review is part of my research for my "Context Engineering for Coding" course, where I teach how to get the most out of AI tools.
+That way I should get a good feel for the tool's capabilities and learn a bit about building a desktop app.  This review is part of my research for my "AI Assisted Coding" course, where I teach how to get the most out of AI tools.
 
 ::: {.columns}
 :::: {.column width="20%"}
@@ -37,7 +37,7 @@ That way I should get a good feel for the tool's capabilities and learn a bit ab
 :::: {.column width="75%"}
 :::{.callout-tip}
 ## Special Offer for Readers
-Get **30% off** my Context Engineering for Coding course with code **ISAAC**
+Get **30% off** my AI Assisted Coding course with code **ISAAC**
 
 [**Enroll Now on Maven**](https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC){.btn .btn-primary .btn-lg}
 :::

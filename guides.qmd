@@ -22,7 +22,7 @@ title-block-banner: true
 :::: {.column width="75%"}
 :::{.callout-tip}
 ## Special Offer for Readers
-Get **30% off** my Context Engineering for Coding course with code **ISAAC**
+Get **30% off** my AI Assisted Coding course with code **ISAAC**
 
 [**Enroll Now on Maven**](https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC){.btn .btn-primary .btn-lg}
 :::
