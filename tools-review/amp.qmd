@@ -133,7 +133,7 @@ The final result, after some manual editing, was a clean, well-structured guide 
 
 ## Manual Refinements Required
 
-AMP's first draft wasn't perfect, and I wouldn't expect it to be. The agent did a good job on the core content but then kept going, adding sections on error pages, form patterns, and other concepts that were out of scope for this specific guide \[00:07:42\].
+AMP's first draft wasn't perfect, and I wouldn't expect it to be. The agent did a good job on the core content but then kept going, adding sections on error pages, form patterns, and other concepts that were out of scope for this specific guide \[00:07:42\].  That's great, because I gave it vague instructions and it did a great job of giving me something I could work with and curate to my liking quickly.
 
 ![Screenshot at 07:45](./amp/screenshot_07_45.png)
 
@@ -143,7 +143,7 @@ My main task was simplification. I deleted large chunks of irrelevant content fr
 
 ![Screenshot at 08:54](./amp/screenshot_08_54.png)
 
-This editing process was still far more efficient than starting from scratch.
+This editing process was far more efficient than starting from scratch.
 
 ## Final Verdict
 
