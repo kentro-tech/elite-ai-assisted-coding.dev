@@ -8,6 +8,7 @@
   {
     "listing": "/tool-reviews.html",
     "items": [
+      "/tools-review/amp.html",
       "/tools-review/gemini-cli.html",
       "/tools-review/cursor.html"
     ]

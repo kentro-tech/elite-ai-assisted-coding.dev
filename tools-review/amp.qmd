@@ -1,6 +1,5 @@
 ---
 title: "AMP Code Agent Tool Review"
-draft: true
 description: "AMP Agent review and testing on real OSS issue I was asked to do by the library creator"
 image: "/static/AmpToolReview.png"
 author: "Isaac Flath"
