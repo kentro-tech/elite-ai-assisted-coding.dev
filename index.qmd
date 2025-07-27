@@ -42,18 +42,17 @@ I've been deep in the AI coding tools space, testing everything from Cursor to W
 
 ## Want Even More?
 
-I teach a course on **Context Engineering for Coding** - the art of getting AI to write the code you actually want. Learn the patterns that 10x your productivity with any AI coding tool.
+I teach a course on **Elite AI Assisted Coding** with Eleanor Berger. Join us to learn the patterns that 10x your productivity with any AI coding tool.
 
-This website had loads of free content I provide.  But if you want even more value, more content, that's even more organized, taught by me live, and interactive, you can get it here:
+This website had loads of free content I provide.  But if you want even more value, more content, that's even more organized, taught by us live, shows how it works in enterprise settings, and interactive, you can get it here:
 
-:::{.callout-tip}
-## Special Offer for Readers
-Get **30% off** my AI Assisted Coding course with code **ISAAC**
-
-[**Enroll Now on Maven**](https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC){.btn .btn-primary .btn-lg}
-:::
-
-Along with the course you'll get access to a private Discord server where you can ask questions, share your own tips, and get help from me and other students.  Once the course started, I will read and respond to all questions in the Discord server.
+```{=html}
+    <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC"><img src="static/CourseCard.jpg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); max-width: 400px; margin: 2em;" alt="Course Card"/>
+    </a>
+    <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="btn btn-primary btn-lg" style="font-size: 1.15rem; border-radius: 8px; font-weight: 600; padding: 0.8em 1.5em; margin: 2em;">
+      <b>Enroll Now on Maven →</b>
+    </a>
+```
 
 ---
 :::

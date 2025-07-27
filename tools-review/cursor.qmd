@@ -21,21 +21,14 @@ open-graph:
 
 Cursor is a fork of VS Code that integrates AI assistance throughout the development workflow.  It is worth trying because it is a full IDE that gives a great diff experience on AI changes, and is very aggressive with the AI assistance.  Cursor is one of the tools I use day-to-day for coding and it's a great tool.
 
-::: {.columns}
-:::: {.column width="20%"}
-<img src="../static/profile_img.jpg" alt="Isaac Flath" style="border-radius:50%;width:100%;">
-::::
-:::: {.column width="5%"}
-::::
-:::: {.column width="75%"}
-:::{.callout-tip}
-## Special Offer for Readers
-Get **30% off** my AI Assisted Coding course with code **ISAAC**
 
-[**Enroll Now on Maven**](https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC){.btn .btn-primary .btn-lg}
-:::
-::::
-:::
+```{=html}
+    <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC"><img src="../static/CourseCard.jpg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); max-width: 700px; margin: 2em 0;" alt="Course Card"/>
+    </a>
+    <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="btn btn-primary btn-lg" style="font-size: 1.15rem; border-radius: 8px; font-weight: 600; padding: 0.8em 1.5em; margin: 2em;">
+      <b>Enroll Now on Maven →</b>
+    </a>
+```
 
 # Top IDE Features
 
