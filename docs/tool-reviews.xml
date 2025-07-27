@@ -6,13 +6,13 @@
       version="2.0">
 <channel>
 <title>Isaac Flath</title>
-<link>https://ai-context-engineering.com/tool-reviews.html</link>
-<atom:link href="https://ai-context-engineering.com/tool-reviews.xml" rel="self" type="application/rss+xml"/>
+<link>https://elite-ai-assisted-coding.dev/tool-reviews.html</link>
+<atom:link href="https://elite-ai-assisted-coding.dev/tool-reviews.xml" rel="self" type="application/rss+xml"/>
 <description>One Stop Shop for Information on Context Engineering for Coding</description>
 <image>
-<url>https://ai-context-engineering.com/static/default-social.png</url>
+<url>https://elite-ai-assisted-coding.dev/static/default-social.png</url>
 <title>Isaac Flath</title>
-<link>https://ai-context-engineering.com/tool-reviews.html</link>
+<link>https://elite-ai-assisted-coding.dev/tool-reviews.html</link>
 <height>81</height>
 <width>144</width>
 </image>
@@ -21,7 +21,7 @@
 <item>
   <title>AMP Code Agent Tool Review</title>
   <dc:creator>Isaac Flath</dc:creator>
-  <link>https://ai-context-engineering.com/tools-review/amp.html</link>
+  <link>https://elite-ai-assisted-coding.dev/tools-review/amp.html</link>
   <description><![CDATA[ 
 
 
@@ -31,7 +31,7 @@
 <p>I decided to try AMP, a new AI agent tool. I gave it a real-world task: creating the “Layouts Concepts” documentation for a new open-source web framework called Air. This involved both coding (because I needed to understand it myself by building some examples) and then actually writing the documentation on it. It was something that I actually needed to get done, making it a nice realistic task to test whether it could be useful to me. The PR was accepted and merged.</p>
 <p>This review covers the entire process, from setting up AMP and generating a working application to writing the final documentation and seeing diffs and explaining what I needed to do myself and how editing the Agent’s output felt.</p>
 <p>TLDR: It was a very powerful coding tool that did much better than I expected and is worth trying.</p>
-    <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC"><img src="https://ai-context-engineering.com/static/CourseCard.jpg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); max-width: 700px; margin: 2em 0;" alt="Course Card">
+    <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC"><img src="https://elite-ai-assisted-coding.dev/static/CourseCard.jpg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); max-width: 700px; margin: 2em 0;" alt="Course Card">
     </a>
     <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="btn btn-primary btn-lg" style="font-size: 1.15rem; border-radius: 8px; font-weight: 600; padding: 0.8em 1.5em; margin: 2em;">
       <b>Enroll Now on Maven →</b>
@@ -43,7 +43,7 @@
 <p>AMP provides a $10 free tier to get started, which is what I used for this project. The entire task ended up costing $4.10 of that credit [00:00:21].</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_00_18.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_00_18.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 00:18</figcaption>
 </figure>
 </div>
@@ -53,7 +53,7 @@
 <p>Air is a new web development framework. It’s brand new and currently in alpha [00:00:33]. This means it’s not in the training data of any major AI models.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_00_33.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_00_33.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 00:33</figcaption>
 </figure>
 </div>
@@ -64,7 +64,7 @@
 <p>I gave AMP the task of rewriting these FastHTML examples for Air, providing it with both projects in my workspace.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_01_42.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_01_42.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 01:42</figcaption>
 </figure>
 </div>
@@ -75,7 +75,7 @@
 <p>It didn’t do anything malicious, but I don’t remember giving it any permissions and it started making files and editing them. It caught me a bit by surprise, but also meant that I moved faster than I would have otherwise. I was a bit worried about it in the moment, but given the results I think it saved me quite a bit of time.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_02_30.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_02_30.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 02:30</figcaption>
 </figure>
 </div>
@@ -87,7 +87,7 @@
 <p>It successfully identified the issue from the logs and fixed the database write errors on the first try [00:03:06].</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_03_06.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_03_06.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 03:06</figcaption>
 </figure>
 </div>
@@ -97,7 +97,7 @@
 <p>I had a fully working application. It’s a project-based to-do app where you can create projects, and within each project, you can add, edit, and delete tasks [00:03:24]. It handles due dates, highlighting overdue tasks in red and other small styling features.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_03_39.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_03_39.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 03:39</figcaption>
 </figure>
 </div>
@@ -136,7 +136,7 @@ font-style: inherit;"># Include routers from other files</span></span>
 <p>It also added some helpful sample data and logging, complete with the typical AI-generated emojis [00:04:51].</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_04_54.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_04_54.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 04:54</figcaption>
 </figure>
 </div>
@@ -146,7 +146,7 @@ font-style: inherit;"># Include routers from other files</span></span>
 <p>The original FastHTML examples used a library called <code>FastLite</code>. AMP translated these operations into raw SQL strings [00:05:09]. While this isn’t the most robust solution, it’s clear and understandable. I didn’t ask for an ORM, so this was a reasonable choice for educational material.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_05_03.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_05_03.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 05:03</figcaption>
 </figure>
 </div>
@@ -157,7 +157,7 @@ font-style: inherit;"># Include routers from other files</span></span>
 <p>The original examples used a custom CSS framework I built called Monster UI, which is specific to FastHTML [00:06:15]. This framework wouldn’t work with Air and it chose to use raw CSS to style the components [00:06:24]. I liked that choice as it kept it simple rather than pulling in a different UI framework.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_06_24.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_06_24.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 06:24</figcaption>
 </figure>
 </div>
@@ -168,7 +168,7 @@ font-style: inherit;"># Include routers from other files</span></span>
 <p>The final result, after some manual editing, was a clean, well-structured guide that was merged into the official Air documentation [00:07:03]. It starts with the core philosophy, explains the built-in layouts, and then details how to create more advanced, custom layout patterns.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_07_00.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_07_00.png" class="img-fluid figure-img"></p>
 <figcaption>Overview of the merged PR and the structure of the layouts guide</figcaption>
 </figure>
 </div>
@@ -178,20 +178,20 @@ font-style: inherit;"># Include routers from other files</span></span>
 <p>AMP’s first draft wasn’t perfect, and I wouldn’t expect it to be. The agent did a good job on the core content but then kept going, adding sections on error pages, form patterns, and other concepts that were out of scope for this specific guide [00:07:42]. That’s great, because I gave it vague instructions and it did a great job of giving me something I could work with and curate to my liking quickly.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_07_45.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_07_45.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 07:45</figcaption>
 </figure>
 </div>
 <p>My main task was simplification. I deleted large chunks of irrelevant content from the end of the document [00:08:03]. I also minimized the code examples by removing boilerplate and consolidated multiple, near-identical examples into a single, clearer one [00:08:36].</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_07_39.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_07_39.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 07:39</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/amp/screenshot_08_54.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/amp/screenshot_08_54.png" class="img-fluid figure-img"></p>
 <figcaption>Screenshot at 08:54</figcaption>
 </figure>
 </div>
@@ -207,14 +207,14 @@ font-style: inherit;"># Include routers from other files</span></span>
 
  ]]></description>
   <category>Coding Agent</category>
-  <guid>https://ai-context-engineering.com/tools-review/amp.html</guid>
+  <guid>https://elite-ai-assisted-coding.dev/tools-review/amp.html</guid>
   <pubDate>Mon, 28 Jul 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://ai-context-engineering.com/static/AmpToolReview.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://elite-ai-assisted-coding.dev/static/AmpToolReview.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Gemini CLI Tool Review</title>
   <dc:creator>Isaac Flath</dc:creator>
-  <link>https://ai-context-engineering.com/tools-review/gemini-cli.html</link>
+  <link>https://elite-ai-assisted-coding.dev/tools-review/gemini-cli.html</link>
   <description><![CDATA[ 
 
 
@@ -231,7 +231,7 @@ font-style: inherit;"># Include routers from other files</span></span>
 <li>Create a desktop app that has file navigations and single vs bulk file renaming to make a genral solution.</li>
 </ol>
 <p>That way I should get a good feel for the tool’s capabilities and learn a bit about building a desktop app. This review is part of my research for my “AI Assisted Coding” course, where I teach how to get the most out of AI tools.</p>
-    <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC"><img src="https://ai-context-engineering.com/static/CourseCard.jpg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); max-width: 700px; margin: 2em 0;" alt="Course Card">
+    <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC"><img src="https://elite-ai-assisted-coding.dev/static/CourseCard.jpg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); max-width: 700px; margin: 2em 0;" alt="Course Card">
     </a>
     <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="btn btn-primary btn-lg" style="font-size: 1.15rem; border-radius: 8px; font-weight: 600; padding: 0.8em 1.5em; margin: 2em;">
       <b>Enroll Now on Maven →</b>
@@ -243,7 +243,7 @@ font-style: inherit;"># Include routers from other files</span></span>
 <p>As you can see, I have a lot of unnamed screenshots and I have no idea what they are. I’ve tried to rewrite them but it’s a pain so I didn’t get far [00:01:09]</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/0-file-list-2025-07-03-to-2025-07-23.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/0-file-list-2025-07-03-to-2025-07-23.png" class="img-fluid figure-img"></p>
 <figcaption>A list of files with generic names like “Screenshot 2025-07-23…”</figcaption>
 </figure>
 </div>
@@ -253,35 +253,35 @@ font-style: inherit;"># Include routers from other files</span></span>
 <p>I fired up the Gemini CLI and gave it the task of renaming the files without any code. [00:01:24] I was pleased to see that it did a great job of analyzing the content of the images and videos and suggesting meaningful names.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/1-gemini-terminal-screenshot.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/1-gemini-terminal-screenshot.png" class="img-fluid figure-img"></p>
 <figcaption>Gemini CLI terminal showing the model analyzing screenshots</figcaption>
 </figure>
 </div>
 <p>The CLI renamed a batch of files, and the new names were descriptive and accurate. [00:01:42]</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/2-five-screenshots-renamed.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/2-five-screenshots-renamed.png" class="img-fluid figure-img"></p>
 <figcaption>Five screenshots renamed with descriptive names</figcaption>
 </figure>
 </div>
 <p>Here’s another example of the CLI renaming a screenshot with a descriptive name. [00:01:39]</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/3-rename-screenshot-example.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/3-rename-screenshot-example.png" class="img-fluid figure-img"></p>
 <figcaption>A screenshot being renamed by the Gemini CLI</figcaption>
 </figure>
 </div>
 <p>The tool also handled video files (<code>.mov</code>) just as effectively as images. [00:02:00]</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/3-screen-recordings-analysis-rename.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/3-screen-recordings-analysis-rename.png" class="img-fluid figure-img"></p>
 <figcaption>The Gemini CLI analyzing and renaming screen recordings</figcaption>
 </figure>
 </div>
 <p>It didn’t keep track of the work progress well however. I found that the CLI would sometimes stop a lot before completing the entire task, and I had to remind it to do a <code>ls | grep Screenshot</code> of the directory to see if there’s more to do to get it to continue. [00:02:15]</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/4-terminal-screenshot-list-2025-07-06.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/4-terminal-screenshot-list-2025-07-06.png" class="img-fluid figure-img"></p>
 <figcaption>A terminal screenshot showing a list of remaining files to be renamed</figcaption>
 </figure>
 </div>
@@ -292,35 +292,35 @@ font-style: inherit;"># Include routers from other files</span></span>
 <p>A feature I particularly liked was the ability to modify the proposed changes in an external editor before applying them. [00:03:09] This gave me more a bit more control.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/5-external-editor-prompt.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/5-external-editor-prompt.png" class="img-fluid figure-img"></p>
 <figcaption>The Gemini CLI prompt to modify a diff in an external editor</figcaption>
 </figure>
 </div>
 <p>I chose to open in cursor, and it gave me an editable diff view I could modify before the changes are applied.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/6-python-folder-selection-code-snippet.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/6-python-folder-selection-code-snippet.png" class="img-fluid figure-img"></p>
 <figcaption>A Python code snippet for folder selection</figcaption>
 </figure>
 </div>
 <p>The Gemini CLI also generated a plan for the application before it started coding, which is nice. Claude Code and many other tools do this too. But it’s still nice. [00:03:33]</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/10-AI-File-Renamer-Plan.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/10-AI-File-Renamer-Plan.png" class="img-fluid figure-img"></p>
 <figcaption>The AI’s plan for the file renamer application</figcaption>
 </figure>
 </div>
 <p>The end result was a functional-ish, but very buggy, desktop application. I was able to select a directory, have the AI suggest new names for the files, and then apply those names. [00:03:54]</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/11-AI-File-Renamer-Screenshot.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/11-AI-File-Renamer-Screenshot.png" class="img-fluid figure-img"></p>
 <figcaption>The AI-generated file renamer application</figcaption>
 </figure>
 </div>
 <p>The application included logging, which was helpful. [00:04:42]</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/12-AI-file-renamer-log.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/12-AI-file-renamer-log.png" class="img-fluid figure-img"></p>
 <figcaption>The log file for the AI file renamer application</figcaption>
 </figure>
 </div>
@@ -335,7 +335,7 @@ font-style: inherit;"># Include routers from other files</span></span>
 <p>When I dove into the code more carefully, I found the common AI code culprits such as overuse of generic <code>try...except</code> blocks that would catch exceptions and simply print them to the console. [00:04:57] This hides bugs and make the application less robust and harder to fix but appear to work at a glance.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/tools-review/gemini-cli/12-Exception-Handlers.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/tools-review/gemini-cli/12-Exception-Handlers.png" class="img-fluid figure-img"></p>
 <figcaption>A code snippet showing generic exception handlers</figcaption>
 </figure>
 </div>
@@ -351,14 +351,14 @@ font-style: inherit;"># Include routers from other files</span></span>
 
  ]]></description>
   <category>Terminal Agent</category>
-  <guid>https://ai-context-engineering.com/tools-review/gemini-cli.html</guid>
+  <guid>https://elite-ai-assisted-coding.dev/tools-review/gemini-cli.html</guid>
   <pubDate>Thu, 24 Jul 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://ai-context-engineering.com/static/GeminiCliToolReview.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://elite-ai-assisted-coding.dev/static/GeminiCliToolReview.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 <item>
   <title>Cursor Tool Review</title>
   <dc:creator>Isaac Flath</dc:creator>
-  <link>https://ai-context-engineering.com/tools-review/cursor.html</link>
+  <link>https://elite-ai-assisted-coding.dev/tools-review/cursor.html</link>
   <description><![CDATA[ 
 
 
@@ -371,7 +371,7 @@ font-style: inherit;"># Include routers from other files</span></span>
 <section id="overview" class="level1">
 <h1>Overview</h1>
 <p>Cursor is a fork of VS Code that integrates AI assistance throughout the development workflow. It is worth trying because it is a full IDE that gives a great diff experience on AI changes, and is very aggressive with the AI assistance. Cursor is one of the tools I use day-to-day for coding and it’s a great tool.</p>
-    <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC"><img src="https://ai-context-engineering.com/static/CourseCard.jpg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); max-width: 700px; margin: 2em 0;" alt="Course Card">
+    <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC"><img src="https://elite-ai-assisted-coding.dev/static/CourseCard.jpg" style="width: 100%; height: auto; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); max-width: 700px; margin: 2em 0;" alt="Course Card">
     </a>
     <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="btn btn-primary btn-lg" style="font-size: 1.15rem; border-radius: 8px; font-weight: 600; padding: 0.8em 1.5em; margin: 2em;">
       <b>Enroll Now on Maven →</b>
@@ -442,7 +442,7 @@ Usage Tip
 <p>Cursor Rules are extremely helpful and there’s 4 modes:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="https://ai-context-engineering.com/static/CursorRulesOptions.png" class="img-fluid figure-img"></p>
+<p><img src="https://elite-ai-assisted-coding.dev/static/CursorRulesOptions.png" class="img-fluid figure-img"></p>
 <figcaption>Cursor Rules Options</figcaption>
 </figure>
 </div>
@@ -466,9 +466,9 @@ Usage Tip
 
  ]]></description>
   <category>IDE</category>
-  <guid>https://ai-context-engineering.com/tools-review/cursor.html</guid>
+  <guid>https://elite-ai-assisted-coding.dev/tools-review/cursor.html</guid>
   <pubDate>Tue, 22 Jul 2025 04:00:00 GMT</pubDate>
-  <media:content url="https://ai-context-engineering.com/static/CursorToolReview.png" medium="image" type="image/png" height="81" width="144"/>
+  <media:content url="https://elite-ai-assisted-coding.dev/static/CursorToolReview.png" medium="image" type="image/png" height="81" width="144"/>
 </item>
 </channel>
 </rss>

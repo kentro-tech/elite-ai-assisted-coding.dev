@@ -1,7 +1,7 @@
 ---
 title: "AMP Code Agent Tool Review"
 description: "AMP Agent review and testing on real OSS issue I was asked to do by the library creator"
-image: "/static/AmpToolReview.png"
+image: "../static/AmpToolReview.png"
 author: "Isaac Flath"
 date: "2025-07-28"
 categories: [Coding Agent]
@@ -9,7 +9,7 @@ toc: false
 twitter-card:
     title: "AMP Code Agent Tool Review"
     description: "AMP Agent review and testing on real OSS issue I was asked to do by the library creator"
-    image: "/static/AmpToolReview.png"
+    image: "../static/AmpToolReview.png"
 open-graph:
     title: "AMP Code Agent Tool Review"
     description: "AMP Agent review and testing on real OSS issue I was asked to do by the library creator"

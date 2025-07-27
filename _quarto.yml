@@ -5,7 +5,7 @@ execute:
   freeze: true
 website:
   title: "Isaac Flath"
-  site-url: https://ai-context-engineering.com
+  site-url: https://elite-ai-assisted-coding.dev
   description: "One Stop Shop for Information on Context Engineering for Coding"
   navbar:
     right:
