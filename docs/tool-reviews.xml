@@ -10,11 +10,9 @@
 <atom:link href="https://elite-ai-assisted-coding.dev/tool-reviews.xml" rel="self" type="application/rss+xml"/>
 <description>One Stop Shop for Information on Context Engineering for Coding</description>
 <image>
-<url>https://elite-ai-assisted-coding.dev/static/default-social.png</url>
+<url>https://elite-ai-assisted-coding.dev/static/CourseCard.jpg</url>
 <title>Isaac Flath</title>
 <link>https://elite-ai-assisted-coding.dev/tool-reviews.html</link>
-<height>81</height>
-<width>144</width>
 </image>
 <generator>quarto-1.7.32</generator>
 <lastBuildDate>Mon, 28 Jul 2025 04:00:00 GMT</lastBuildDate>

@@ -1,6 +1,6 @@
 ---
 title: "Tool Reviews"
-image: static/default-social.png
+image: static/CourseCard.jpg
 listing:
   contents: tools-review
   sort: "date desc"
