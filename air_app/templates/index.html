@@ -1,0 +1,150 @@
+{% extends "base.html" %}
+
+{% block title %}Elite AI Assisted Coding{% endblock %}
+{% block description %}A review of AI coding tools and practices that actually work and improve your productivity{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 md:grid-cols-12 gap-8 mb-12">
+        <div class="md:col-span-4">
+            <img src="/static/profile_img.jpg" alt="Isaac Flath" class="rounded-lg shadow-lg w-full">
+        </div>
+        <div class="md:col-span-8">
+            <h1 class="text-4xl font-bold mb-4">Hey, I'm Isaac Flath</h1>
+            <p class="text-lg">
+                I've been deep in the AI coding tools space, testing everything from Cursor to Windsurf to see what actually delivers. Just honest reviews and techniques based on real coding sessions.
+            </p>
+        </div>
+    </div>
+
+    <div class="mb-12">
+        <h2 class="text-3xl font-bold mb-6">What You'll Find Here</h2>
+        <ul class="list-disc list-inside space-y-2 ml-4">
+            <li class="text-lg"><strong>Guides</strong>: Universal Techniques and Concepts for using and curating context for AI</li>
+            <li class="text-lg"><strong>Unbiased Reviews</strong>: I pay for these tools and try them myself</li>
+            <li class="text-lg"><strong>Real Code Examples</strong>: Hear exactly what tasks I used them</li>
+            <li class="text-lg"><strong>Practical Insights</strong>: What works, what doesn't, and when to use each tool</li>
+            <li class="text-lg"><strong>Condensed Information</strong>: I've condensed the information to the most useful so you don't need to spend hours on every tool to know what's worth your time to try for yourself.</li>
+        </ul>
+    </div>
+
+    <div class="divider"></div>
+    
+    <!-- Featured Content -->
+    <div class="mb-12">
+        <h2 class="text-3xl font-bold mb-6">Featured Content</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Featured Tool Review -->
+            <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                <figure>
+                    <img src="/static/CursorToolReview.png" alt="Cursor Tool Review" class="w-full h-48 object-cover">
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Cursor IDE Reference Guide</h2>
+                    <p>IDE capabilities, tab completion, background agents, integrations, and terminal assistance</p>
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="badge badge-primary badge-outline">Tool Review</span>
+                        <span class="badge badge-primary badge-outline">IDE</span>
+                    </div>
+                    <div class="card-actions justify-end mt-4">
+                        <a href="/tool-reviews/cursor">
+                            <button class="btn btn-primary">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Featured Guide -->
+            <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                <figure>
+                    <img src="/static/context-personalization-101.png" alt="Context Personalization 101" class="w-full h-48 object-cover">
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Context Personalization 101</h2>
+                    <p>Learn to optimize your dev environment with AI tools using Cursor Rules and Model Context Protocol</p>
+                    <div class="flex flex-wrap gap-2 mt-2">
+                        <span class="badge badge-primary badge-outline">Guide</span>
+                        <span class="badge badge-primary badge-outline">Context</span>
+                    </div>
+                    <div class="card-actions justify-end mt-4">
+                        <a href="/guides/context-personalization-101">
+                            <button class="btn btn-primary">Read More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Course Promo Card -->
+            <div class="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
+                <figure>
+                    <img src="/static/CourseCard.jpg" alt="Course Card" class="w-full h-48 object-cover">
+                </figure>
+                <div class="card-body">
+                    <h2 class="card-title">Master AI-Assisted Coding</h2>
+                    <p>Join my course to learn advanced techniques and patterns that will 10x your productivity with any AI coding tool.</p>
+                    <div class="card-actions justify-end mt-4">
+                        <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC">
+                            <button class="btn btn-primary">Enroll Now</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Recent Tool Reviews -->
+    <div class="mb-12">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-3xl font-bold">Recent Tool Reviews</h2>
+            <a href="/tool-reviews" class="btn btn-outline btn-primary">View All</a>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+             hx-get="/partials/tool-cards?sort=date-desc&limit=3" 
+             hx-trigger="load"
+             hx-swap="innerHTML">
+            <!-- Content will be loaded via HTMX -->
+            <div class="skeleton h-64 w-full"></div>
+            <div class="skeleton h-64 w-full"></div>
+            <div class="skeleton h-64 w-full"></div>
+        </div>
+    </div>
+    
+    <!-- Recent Guides -->
+    <div class="mb-12">
+        <div class="flex justify-between items-center mb-6">
+            <h2 class="text-3xl font-bold">Recent Guides</h2>
+            <a href="/guides" class="btn btn-outline btn-primary">View All</a>
+        </div>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
+             hx-get="/partials/guide-cards?sort=date-desc&limit=3" 
+             hx-trigger="load"
+             hx-swap="innerHTML">
+            <!-- Content will be loaded via HTMX -->
+            <div class="skeleton h-64 w-full"></div>
+            <div class="skeleton h-64 w-full"></div>
+            <div class="skeleton h-64 w-full"></div>
+        </div>
+    </div>
+    
+    <!-- Course Promo Banner -->
+    <div class="card bg-base-200 shadow-xl mb-12">
+        <div class="card-body">
+            <div class="flex flex-col md:flex-row items-center gap-6">
+                <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="block">
+                    <img src="/static/CourseCard.jpg" alt="Course Card" class="rounded-lg shadow-md max-w-sm w-full">
+                </a>
+                <div>
+                    <h2 class="card-title text-2xl mb-4">Want to master AI-assisted coding?</h2>
+                    <p class="mb-4">Join my course to learn advanced techniques and patterns that will 10x your productivity with any AI coding tool.</p>
+                    <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="btn btn-primary btn-lg">
+                        <strong>Enroll Now on Maven →</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

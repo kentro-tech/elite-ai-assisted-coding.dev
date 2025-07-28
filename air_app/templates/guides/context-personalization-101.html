@@ -1,0 +1,248 @@
+{% extends "base.html" %}
+
+{% block title %}Optimize Your Dev Setup For Evals w/ Cursor Rules & MCP{% endblock %}
+{% block description %}Learn to optimize your dev environment with AI tools using Cursor Rules and Model Context Protocol{% endblock %}
+
+{% block head %}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Optimize Your Dev Setup For Evals w/ Cursor Rules & MCP">
+<meta name="twitter:description" content="Learn to optimize your dev environment with AI tools using Cursor Rules and Model Context Protocol">
+<meta name="twitter:image" content="/static/context-personalization-101.png">
+
+<meta property="og:title" content="Optimize Your Dev Setup For Evals w/ Cursor Rules & MCP">
+<meta property="og:description" content="Learn to optimize your dev environment with AI tools using Cursor Rules and Model Context Protocol">
+<meta property="og:image" content="/static/context-personalization-101.png">
+{% endblock %}
+
+{% block content %}
+<div class="max-w-6xl mx-auto">
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-8">
+        <!-- Main Content -->
+        <div class="lg:col-span-3">
+            <div class="prose prose-lg max-w-none">
+                <h1 id="introduction">Optimize Your Dev Setup For Evals w/ Cursor Rules & MCP</h1>
+                
+                <p>
+                    This is a guide to help you optimize your dev setup to get the most out of AI. 
+                    It's showed with specific examples for eval frameworks, but the concepts are universally applicable to any tool. 
+                    It's a guide to help you understand the different layers of context and how to use them to your advantage for your AI tools.
+                </p>
+                
+                <p>
+                    This content was originally created and taught as part of Hamel and Shreya's 
+                    <a href="https://maven.com/parlance-labs/evals?promoCode=kentro-learn">AI Evals Course</a> 
+                    on Maven (30% off with that link!). If you are building AI tools or products, it's a must-take course. 
+                    Watch the original video <a href="https://maven.com/p/f24547/optimize-your-dev-setup-for-evals-w-cursor-rules-mcp">here</a>.
+                </p>
+                
+                <!-- Course Promo -->
+                <div class="my-8 p-6 bg-base-200 rounded-xl shadow-lg">
+                    <div class="flex flex-col md:flex-row items-center gap-6">
+                        <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="block">
+                            <img src="/static/CourseCard.jpg" alt="Course Card" class="rounded-lg shadow-md max-w-sm w-full">
+                        </a>
+                        <a href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC" class="btn btn-primary btn-lg">
+                            <strong>Enroll Now on Maven →</strong>
+                        </a>
+                    </div>
+                </div>
+                
+                <h2 id="why-bother">Why bother?</h2>
+                <ul>
+                    <li>Better AI assistance</li>
+                    <li>Training cutoff may mean outdated info</li>
+                    <li>Spending time determining what's important to your project is good - Forces you to understand your tools better</li>
+                    <li>Make AI better match your taste</li>
+                    <li>Show how AI integrates with your other tools, abstractions, or framework</li>
+                </ul>
+                
+                <h2 id="the-three-layers">The Three Layers</h2>
+                <ol>
+                    <li>
+                        <strong>General Context</strong>: Generic tool that works on almost anything
+                        <ul>
+                            <li>Repomix, GitMCP, etc.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Curated Context</strong>: Curated by an expert, such as the tool author
+                        <ul>
+                            <li>Library provided MCP, llms.txt, etc.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Personalized Context</strong>: Context that you can create that's unique to your project
+                        <ul>
+                            <li>Only you can make this and it's uniquely tailored to your taste and needs</li>
+                        </ul>
+                    </li>
+                </ol>
+                
+                <h2 id="general-context">General Context</h2>
+                <p>
+                    General context is a good starting point when exploring or unsure about a tool. 
+                    It's generic and not optimized for specific needs. It's fast and easy to set up. 
+                    It's useful for quick experimentation and exploration, but it's not the best for long-term use. 
+                    Here's a few examples of general context tools.
+                </p>
+                
+                <div class="alert alert-success my-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    <div>
+                        <h3 class="font-bold">Good For</h3>
+                        <ul>
+                            <li>Good starting point when exploring or unsure about a tool</li>
+                            <li>Generic and not optimized for specific needs</li>
+                            <li>Fast and easy to set up</li>
+                            <li>Useful for quick experimentation and exploration</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="tabs tabs-boxed my-6">
+                    <a class="tab" onclick="showTab('braintrust')">Braintrust</a>
+                    <a class="tab" onclick="showTab('phoenix')">Phoenix</a>
+                    <a class="tab" onclick="showTab('inspect')">Inspect</a>
+                </div>
+                
+                <div id="braintrust" class="tab-content">
+                    <h3>Repo Mix</h3>
+                    <p>
+                        RepoMix is a tool that lets you take a github repo and concatenate all the files based on a pattern into a single file. 
+                        This is useful for getting lots of context into a single file that you model can easily understand.
+                    </p>
+                    <figure class="my-4">
+                        <img src="/static/repomix_ui.png" alt="Repo Mix UI for Braintrust" class="rounded-lg shadow-lg">
+                        <figcaption class="text-center mt-2">Repo Mix UI for Braintrust</figcaption>
+                    </figure>
+                </div>
+                
+                <div id="phoenix" class="tab-content" style="display: none;">
+                    <h3>Paste Max</h3>
+                    <p>
+                        PasteMax is a tool that is a Native App you can install on your machine that lets you concatenate content and files directly in a nice UI. 
+                        It serves a similar purpose to RepoMix, but it's a desktop app and has a different UX that many prefer.
+                    </p>
+                    <figure class="my-4">
+                        <img src="/static/PasteMax.png" alt="PasteMax UI for Phoenix" class="rounded-lg shadow-lg">
+                        <figcaption class="text-center mt-2">PasteMax UI for Phoenix</figcaption>
+                    </figure>
+                    <figure class="my-4">
+                        <img src="/static/PasteMaxIgnores.png" alt="PasteMax Ignores UI options" class="rounded-lg shadow-lg">
+                        <figcaption class="text-center mt-2">PasteMax Ignores UI options</figcaption>
+                    </figure>
+                </div>
+                
+                <div id="inspect" class="tab-content" style="display: none;">
+                    <h3>Git MCP</h3>
+                    <p>
+                        GitMCP is a tool that lets you use a github repo as a context source by creating an MCP server to let agents interact with the repo via tools. 
+                        It's a different approach to general context, and it's a good way to be able to let agents interact with the repo via tools. 
+                        It also has a nice web chat interface that's great for quick questions to explore the repo.
+                    </p>
+                    <figure class="my-4">
+                        <img src="/static/mcp.png" alt="GitMCP UI" class="rounded-lg shadow-lg">
+                        <figcaption class="text-center mt-2">GitMCP UI</figcaption>
+                    </figure>
+                    <p>
+                        Repository chat interface: <a href="https://gitmcp.io/UKGovernmentBEIS/inspect_evals/chat">https://gitmcp.io/UKGovernmentBEIS/inspect_evals/chat</a>
+                    </p>
+                    <figure class="my-4">
+                        <img src="/static/chat.png" alt="Chat interface" class="rounded-lg shadow-lg">
+                        <figcaption class="text-center mt-2">Chat interface</figcaption>
+                    </figure>
+                    <figure class="my-4">
+                        <img src="/static/mcp.png" alt="MCP interface" class="rounded-lg shadow-lg">
+                        <figcaption class="text-center mt-2">MCP interface</figcaption>
+                    </figure>
+                </div>
+                
+                <h2 id="cursor-rules">Cursor Rules</h2>
+                <p>
+                    Cursor rules let you customize how the curso AI assistance will use your rules, this is extremely helpful and should not be overlooked.
+                </p>
+                
+                <h3 id="rule-creation">Rule Creation</h3>
+                <p>
+                    You can create rules in the <code>.cursor/rules</code> directory, but there's a cursor command that does it for you.
+                </p>
+                <figure class="my-4">
+                    <img src="/static/rule_creation.png" alt="Cursor Rule Creation" class="rounded-lg shadow-lg">
+                    <figcaption class="text-center mt-2">Cursor Rule Creation</figcaption>
+                </figure>
+                
+                <h3 id="choosing-a-rule-type">Choosing a Rule Type</h3>
+                <p>
+                    Cursor lets you choose a rule type to determine when the models will use the rule context. 
+                    This is a great way to give a bit more control over model context.
+                </p>
+                <figure class="my-4">
+                    <img src="/static/rule_types.png" alt="Cursor Rule Types" class="rounded-lg shadow-lg">
+                    <figcaption class="text-center mt-2">Cursor Rule Types</figcaption>
+                </figure>
+                
+                <div class="alert alert-success my-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="stroke-current shrink-0 h-6 w-6" fill="none" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+                    <div>
+                        <h3 class="font-bold">Rule Application Strategies</h3>
+                        <ol>
+                            <li><strong>Always Apply</strong> - Core rules that should never be violated</li>
+                            <li><strong>Apply Manually</strong> - Rules you trigger when needed. If you're really bad at thinking about context, and you're not going to put a lot of effort in then don't use this.</li>
+                            <li><strong>Apply Intelligently</strong> - This is a great thing to use</li>
+                            <li><strong>Apply to Specific Files</strong> - File-type or path-specific rules. This can be nice, but you're liable to set it to a path, restructure something, then forget and this rule will be accidentlaly deprecated.</li>
+                        </ol>
+                    </div>
+                </div>
+                
+                <!-- More content would go here... -->
+            </div>
+        </div>
+        
+        <!-- Table of Contents Sidebar -->
+        <div class="lg:col-span-1">
+            <div class="sticky top-4 p-4 bg-base-100 rounded-lg shadow-md">
+                <h3 class="text-lg font-bold mb-2">Table of Contents</h3>
+                <ul class="space-y-1">
+                    <li><a href="#introduction" class="toc-link hover:text-primary transition-colors">Introduction</a></li>
+                    <li><a href="#why-bother" class="toc-link hover:text-primary transition-colors">Why bother?</a></li>
+                    <li><a href="#the-three-layers" class="toc-link hover:text-primary transition-colors">The Three Layers</a></li>
+                    <li><a href="#general-context" class="toc-link hover:text-primary transition-colors">General Context</a></li>
+                    <li><a href="#cursor-rules" class="toc-link hover:text-primary transition-colors">Cursor Rules</a></li>
+                    <li><a href="#rule-creation" class="toc-link ml-4 hover:text-primary transition-colors">Rule Creation</a></li>
+                    <li><a href="#choosing-a-rule-type" class="toc-link ml-4 hover:text-primary transition-colors">Choosing a Rule Type</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    // Tab functionality
+    function showTab(tabId) {
+        // Hide all tab contents
+        document.querySelectorAll('.tab-content').forEach(content => {
+            content.style.display = 'none';
+        });
+        
+        // Show the selected tab content
+        document.getElementById(tabId).style.display = 'block';
+        
+        // Update active tab
+        document.querySelectorAll('.tabs .tab').forEach(tab => {
+            if (tab.textContent.trim().toLowerCase() === tabId.toLowerCase()) {
+                tab.classList.add('tab-active');
+            } else {
+                tab.classList.remove('tab-active');
+            }
+        });
+    }
+    
+    // Initialize the first tab as active
+    document.addEventListener('DOMContentLoaded', function() {
+        document.querySelector('.tabs .tab').classList.add('tab-active');
+        showTab('braintrust');
+    });
+</script>
+{% endblock %}
