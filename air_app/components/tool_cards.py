@@ -138,18 +138,18 @@ def tool_cards_grid() -> air.Div:
         # Filter Controls
         air.Div(
             air.Div(
-                air.Div(
+                air.Label(
                     air.Input(
                         type="text",
-                        placeholder="Search...",
-                        class_="input input-bordered",
+                        placeholder="Search tools...",
+                        class_="input input-bordered pr-12",
                         name="search",
                         hx_get="/partials/tool-cards",
                         hx_target="#tool-cards-container",
                         hx_trigger="keyup changed delay:300ms",
                         hx_include="[name='category'], [name='sort']"
                     ),
-                    air.Button(
+                    air.Span(
                         air.svg.Svg(
                             air.svg.Path(
                                 stroke_linecap="round",
@@ -158,14 +158,14 @@ def tool_cards_grid() -> air.Div:
                                 d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
                             ),
                             xmlns="http://www.w3.org/2000/svg",
-                            class_="h-6 w-6",
+                            class_="h-5 w-5",
                             fill="none",
                             viewBox="0 0 24 24",
                             stroke="currentColor"
                         ),
-                        class_="btn btn-square"
+                        class_="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none text-base-content/50"
                     ),
-                    class_="input-group"
+                    class_="relative"
                 ),
                 class_="form-control"
             ),
