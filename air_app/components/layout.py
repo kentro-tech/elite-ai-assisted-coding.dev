@@ -29,16 +29,12 @@ def base_layout(title: str = "Isaac Flath",
             # HTMX
             air.Script(src="https://unpkg.com/htmx.org@1.9.10"),
             
-            # Configure Tailwind and DaisyUI with Typography
-            air.Script(src="https://cdn.jsdelivr.net/npm/@tailwindcss/typography@0.5.10/dist/index.min.js"),
+            # Configure Tailwind and DaisyUI
             air.Script("""
                 tailwind.config = {
                     theme: {
                         extend: {},
                     },
-                    plugins: [
-                        tailwindcssTypography,
-                    ],
                     daisyui: {
                         themes: ["light"],
                         base: true,
