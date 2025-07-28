@@ -41,17 +41,10 @@ def tool_card(title: str, description: str, image_path: Optional[str] = None,
         )
     ]
     
-    # Create the card
-    if image_path:
-        return air.Div(
-            class_="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300",
-            air.Figure(
-                air.Img(src=image_path, alt=title, class_="rounded-t-lg w-full h-48 object-cover")
-            ),
-            air.Div(class_="card-body", *card_content)
-        )
-    else:
-        return air.Div(
-            class_="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300",
-            air.Div(class_="card-body", *card_content)
-        )
+    return air.Div(
+        class_="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300",
+        air.Figure(
+            air.Img(src=image_path, alt=title, class_="rounded-t-lg w-full h-48 object-cover")
+        ),
+        air.Div(class_="card-body", *card_content)
+    )
