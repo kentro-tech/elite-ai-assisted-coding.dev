@@ -33,9 +33,16 @@ def guide_page(guide_name: str) -> air.Html:
     except FileNotFoundError:
         markdown_content = f"# Guide Not Found\n\nThe guide '{guide_name}' could not be found."
     
+    # Determine the social card image based on guide name
+    guide_image_map = {
+        "context-personalization-101": "/static/context-personalization-101.png"
+    }
+    social_image = guide_image_map.get(guide_name, "/static/CourseCard.jpg")
+    
     return base_layout(
-        f"{guide_name.replace('-', ' ').title()} - Isaac Flath",
+        f"{guide_name.replace('-', ' ').title()} - Isaac Flath & Eleanor Berger",
         f"Learn about {guide_name.replace('-', ' ')} with practical insights and techniques for AI-assisted coding.",
+        social_image,
         air.Main(
             air.Div(
                 air.Div(

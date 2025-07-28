@@ -9,8 +9,9 @@ def index_page() -> air.Html:
         An Air Html component representing the index page
     """
     return base_layout(
-        "Elite AI Assisted Coding - Isaac Flath",
-        "Master AI coding tools with real-world reviews and proven techniques from a practicing developer",
+        "Elite AI Assisted Coding - Isaac Flath & Eleanor Berger",
+        "Master AI coding tools with real-world reviews and proven techniques from expert instructors",
+        "/static/CourseCard.jpg",
         air.Div(
             # Hero Section
             air.Div(
@@ -18,10 +19,18 @@ def index_page() -> air.Html:
                     # Profile and Introduction
                     air.Div(
                         air.Div(
-                            air.Img(
-                                src="/static/profile_img.jpg",
-                                alt="Isaac Flath",
-                                class_="w-32 h-32 md:w-40 md:h-40 rounded-full shadow-xl border-2 border-base-300 object-cover aspect-square"
+                            air.Div(
+                                air.Img(
+                                    src="/static/profile_img.jpg",
+                                    alt="Isaac Flath",
+                                    class_="w-32 h-32 md:w-40 md:h-40 rounded-full shadow-xl border-2 border-base-300 object-cover aspect-square"
+                                ),
+                                air.Img(
+                                    src="/static/eleanor.jpg",
+                                    alt="Eleanor Berger",
+                                    class_="w-32 h-32 md:w-40 md:h-40 rounded-full shadow-xl border-2 border-base-300 object-cover aspect-square"
+                                ),
+                                class_="flex justify-center gap-4 md:gap-8"
                             ),
                             class_="flex justify-center mb-6"
                         ),
@@ -31,7 +40,7 @@ def index_page() -> air.Html:
                                 class_="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-base-content to-base-content/60 bg-clip-text text-transparent"
                             ),
                             air.P(
-                                "Hey, I'm Isaac Flath. I've spent thousands of hours working with every AI coding tool I can to find what actually improves productivity. Now, I'm sharing my knowledge with you. No hype, just honest insights from real development work.",
+                                "Hey, we're Isaac Flath and Eleanor Berger. We've spent thousands of hours working with every AI coding tool to find what actually improves productivity. Now, we're sharing our knowledge with you. No hype, just honest insights from real development work.",
                                 class_="text-xl md:text-2xl text-base-content/80 mb-8"
                             ),
                             # CTA Buttons
@@ -85,7 +94,7 @@ def index_page() -> air.Html:
                                 ),
                                 air.H3("Real Testing, Real Results", class_="card-title mb-2"),
                                 air.P(
-                                    "Every review is based on actual development work. I show you exactly what I built and how each tool performed.",
+                                    "Every review is based on actual development work. We show you exactly what we built and how each tool performed.",
                                     class_="text-base-content/70"
                                 ),
                                 class_="card-body"
@@ -107,7 +116,7 @@ def index_page() -> air.Html:
                                 ),
                                 air.H3("No Affiliate Links", class_="card-title mb-2"),
                                 air.P(
-                                    "I pay for every tool myself. My reviews are honest because I'm not getting paid to promote any of them.",
+                                    "We pay for every tool ourselves. Our reviews are honest because we're not getting paid to promote any of them.",
                                     class_="text-base-content/70"
                                 ),
                                 class_="card-body"
@@ -129,7 +138,7 @@ def index_page() -> air.Html:
                                 ),
                                 air.H3("Actionable Insights", class_="card-title mb-2"),
                                 air.P(
-                                    "Everything is actionable because I'm showing how it actually works in real development work I need to do.",
+                                    "Everything is actionable because we're showing how it actually works in real development work we need to do.",
                                     class_="text-base-content/70"
                                 ),
                                 class_="card-body"
@@ -157,7 +166,7 @@ def index_page() -> air.Html:
                             class_="text-4xl md:text-5xl font-bold mb-6 text-center"
                         ),
                         air.P(
-                            "Join my comprehensive course where I teach everything I've learned about AI-assisted development.",
+                            "Join our comprehensive course where we teach everything we've learned about AI-assisted development.",
                             class_="text-xl text-center mb-8 text-base-content/80 max-w-2xl mx-auto"
                         ),
                         # Course Features Grid
@@ -170,8 +179,8 @@ def index_page() -> air.Html:
                                     stroke="currentColor",
                                     viewBox="0 0 24 24"
                                 ),
-                                air.H4("Live Coding Sessions", class_="font-bold"),
-                                air.P("Watch me code in real-time", class_="text-sm text-base-content/70"),
+                                air.H4("Real projects", class_="font-bold"),
+                                air.P("Applied to real projects with practical value", class_="text-sm text-base-content/70"),
                                 class_="text-center"
                             ),
                             air.Div(
@@ -183,7 +192,7 @@ def index_page() -> air.Html:
                                     viewBox="0 0 24 24"
                                 ),
                                 air.H4("Comprehensive Guides", class_="font-bold"),
-                                air.P("Step-by-step instructions", class_="text-sm text-base-content/70"),
+                                air.P("Step-by-step instructions with real examples", class_="text-sm text-base-content/70"),
                                 class_="text-center"
                             ),
                             air.Div(
@@ -195,7 +204,7 @@ def index_page() -> air.Html:
                                     viewBox="0 0 24 24"
                                 ),
                                 air.H4("Community Access", class_="font-bold"),
-                                air.P("Learn with other developers", class_="text-sm text-base-content/70"),
+                                air.P("Learn with other developers and direct access to us", class_="text-sm text-base-content/70"),
                                 class_="text-center"
                             ),
                             air.Div(
@@ -206,8 +215,8 @@ def index_page() -> air.Html:
                                     stroke="currentColor",
                                     viewBox="0 0 24 24"
                                 ),
-                                air.H4("Lifetime Updates", class_="font-bold"),
-                                air.P("Stay current with AI tools", class_="text-sm text-base-content/70"),
+                                air.H4("One Stop Shop", class_="font-bold"),
+                                air.P("All important tool, technique, and strategy in one place", class_="text-sm text-base-content/70"),
                                 class_="text-center"
                             ),
                             class_="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8"
@@ -217,12 +226,12 @@ def index_page() -> air.Html:
                             air.A(
                                 air.Span("Enroll in the Course", class_="mr-2"),
                                 air.Span("→", class_="text-xl"),
-                                href="https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC",
+                                href="https://maven.com/kentro/context-engineering-for-coding?promoCode=AI-CODING",
                                 class_="btn btn-warning btn-lg text-base-100 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 transition-all duration-200"
                             ),
                             air.P(
                                 air.Span("Use code ", class_="text-sm"),
-                                air.Code("ISAAC", class_="text-sm font-bold"),
+                                air.Code("AI-CODING", class_="text-sm font-bold"),
                                 air.Span(" for exclusive discount", class_="text-sm"),
                                 class_="mt-4 text-base-content/60"
                             ),

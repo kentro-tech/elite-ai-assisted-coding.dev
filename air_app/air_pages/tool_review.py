@@ -21,9 +21,18 @@ def tool_review_page(tool_name: str) -> air.Html:
     except FileNotFoundError:
         markdown_content = f"# Tool Review Not Found\n\nThe tool review for '{tool_name}' could not be found."
     
+    # Determine the social card image based on tool name
+    tool_image_map = {
+        "amp": "/static/AmpToolReview.png",
+        "cursor": "/static/CursorToolReview.png",
+        "gemini-cli": "/static/GeminiCliToolReview.png"
+    }
+    social_image = tool_image_map.get(tool_name, "/static/CourseCard.jpg")
+    
     return base_layout(
-        f"{tool_name.replace('-', ' ').title()} Tool Review - Isaac Flath",
+        f"{tool_name.replace('-', ' ').title()} Tool Review - Isaac Flath & Eleanor Berger",
         f"Detailed review of {tool_name.replace('-', ' ')} AI coding tool with real-world testing and insights.",
+        social_image,
         air.Main(
             air.Div(
                 air.Div(
