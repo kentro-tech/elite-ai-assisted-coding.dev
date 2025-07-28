@@ -224,3 +224,59 @@
     margin-right: 0.5rem;
     margin-bottom: 0.25rem;
 }
+
+/* Enhanced additions inspired by Tailwind Typography */
+
+/* Lead paragraph - first paragraph often larger */
+.prose > p:first-of-type {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #4b5563;
+}
+
+/* Figure captions */
+.prose figcaption {
+    color: #6b7280;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin-top: 0.75rem;
+    text-align: center;
+}
+
+/* Keyboard inputs */
+.prose kbd {
+    background-color: #f3f4f6;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+    padding: 0.125rem 0.375rem;
+    font-size: 0.875rem;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+/* Better nested list spacing */
+.prose ul ul, .prose ul ol, .prose ol ul, .prose ol ol {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+/* Smoother image shadows */
+.prose img {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive text sizing */
+@media (max-width: 640px) {
+    .prose {
+        font-size: 0.95rem;
+    }
+    .prose h1 {
+        font-size: 1.875rem;
+    }
+    .prose h2 {
+        font-size: 1.5rem;
+    }
+    .prose h3 {
+        font-size: 1.25rem;
+    }
+}
