@@ -47,3 +47,8 @@ async def tool_cards_partial(search: str = "", category: str = "all", sort: str 
 async def guide_cards_partial(search: str = "", category: str = "all", sort: str = "date-desc", limit: int = None):
     from components.guide_cards import get_filtered_guide_cards
     return HTMLResponse(get_filtered_guide_cards(search, category, sort, limit))
+
+# Health check endpoint
+@app.get("/health")
+async def health_check():
+    return {"status": "healthy", "service": "air-app"}
