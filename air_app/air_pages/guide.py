@@ -24,7 +24,7 @@ def guide_page(guide_name: str) -> air.Html:
         An Air Html component for the guide page
     """
     # Load markdown content
-    content_path = f"/workspace/air_app/content/guides/{guide_name}.md"
+    content_path = f"content/guides/{guide_name}.md"
     
     try:
         with open(content_path, 'r', encoding='utf-8') as f:

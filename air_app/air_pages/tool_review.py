@@ -14,11 +14,10 @@ def tool_review_page(tool_name: str) -> air.Html:
         An Air Html component for the tool review page
     """
     # Load markdown content
-    content_path = f"/workspace/air_app/content/tool-reviews/{tool_name}.md"
+    content_path = f"content/tool-reviews/{tool_name}.md"
     
     try:
-        with open(content_path, 'r', encoding='utf-8') as f:
-            markdown_content = f.read()
+        markdown_content = open(content_path, 'r', encoding='utf-8').read()
     except FileNotFoundError:
         markdown_content = f"# Tool Review Not Found\n\nThe tool review for '{tool_name}' could not be found."
     
