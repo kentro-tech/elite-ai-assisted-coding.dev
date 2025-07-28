@@ -1,7 +1,6 @@
 import air
 from air_markdown import Markdown
 from components.layout import base_layout
-from components.course_promo import course_promo
 from components.guide_cards import guide_cards_grid
 
 def guides_page() -> air.Html:
