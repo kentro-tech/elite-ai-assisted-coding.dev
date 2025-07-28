@@ -35,26 +35,24 @@ General context is a good starting point when exploring or unsure about a tool. 
 > - Fast and easy to set up
 > - Useful for quick experimentation and exploration
 
-### Braintrust
+### Examples of General Context Tools
 
-#### Repo Mix
+Here are examples of general context tools for different evaluation frameworks:
+
+#### Braintrust - Repo Mix
 
 RepoMix is a tool that lets you take a github repo and concatenate all the files based on a pattern into a single file. This is useful for getting lots of context into a single file that you model can easily understand.
 
 ![Repo Mix UI for Braintrust](/static/guides/braintrust/general/repomix_ui.png)
 
-### Phoenix
-
-#### Paste Max
+#### Phoenix - Paste Max
 
 PasteMax is a tool that is a Native App you can install on your machine that lets you concatenate content and files directly in a nice UI. It serves a similar purpose to RepoMix, but it's a desktop app and has a different UX that many prefer.
 
 ![PasteMax UI for Phoenix](/static/guides/pheonix/general/PasteMax.png)
 ![PasteMax Ignores UI options](/static/guides/pheonix/general/PasteMaxIgnores.png)
 
-### Inspect
-
-#### Git MCP
+#### Inspect - Git MCP
 
 GitMCP is a tool that lets you use a github repo as a context source by creating an MCP server to let agents interact with the repo via tools. It's a different approach to general context, and it's a good way to be able to let agents interact with the repo via tools. It also has a nice web chat interface that's great for quick questions to explore the repo.
 
@@ -97,9 +95,11 @@ Curated context is a good starting point when you want to explore more deeply. I
 > - You want to explore more deeply
 > - It's provided by the tool author in some format
 
-### Braintrust
+### Examples of Curated Context
 
-#### MCP (Model Context Protocol)
+Different tools provide curated context in various formats. Here are examples for different evaluation frameworks:
+
+#### Braintrust - MCP (Model Context Protocol)
 
 Braintrust provides a MCP server that your AI agents can use. This is a lot like GitMCP we saw above, but created by the Braintrust team specifically for Braintrust so it's much better.
 
@@ -112,18 +112,14 @@ To set up the MCP server with Cursor, you can use the following settings.
 
 ![Cursor MCP Json](/static/guides/braintrust/curated/CursorMCPJson.png)
 
-### Phoenix
-
-#### LLMs.txt
+#### Phoenix - LLMs.txt
 
 Phoenix provides an file based in the [llms.txt spec](https://llmstxt.org/) format. This is a format that allows for use as static context in a flat file, or as a tool that an MCP server can use to crawl it agentally.
 
 - Standard Format for Phoenix: [https://arize.com/docs/phoenix/llms.txt](https://arize.com/docs/phoenix/llms.txt)
 - Langchain MCP documentation tool: [https://github.com/langchain-ai/mcpdoc](https://github.com/langchain-ai/mcpdoc)
 
-### Inspect
-
-#### llms.txt
+#### Inspect - llms.txt
 
 For Phoenix, I provided a link to langchain's MCP server that lets you use the llms.txt file as a tool. For Inspect, let's use the llms.txt spec to use the flat files as context to see the difference.
 
@@ -166,56 +162,60 @@ Personalized context is the most time consuming and the most effective. It's not
 
 Let's look at some examples of diffs that you may want to do to your context for more personalized context.
 
-### Braintrust
+### Examples of Personalized Context
 
-#### Use Case Specific Context
+Here are examples of how to personalize context for different evaluation frameworks:
+
+#### Braintrust Personalization Examples
+
+**Use Case Specific Context**
 
 ![Use case specific examples](/static/guides/braintrust/personalized/UseCase.png)
 
-#### Reducing Context Size
+**Reducing Context Size**
 
 ![Reducing context for efficiency](/static/guides/braintrust/personalized/ReduceContext.png)
 
-#### Opinionated Best Practices
+**Opinionated Best Practices**
 
 ![Defining coding standards](/static/guides/braintrust/personalized/Opinionated.png)
 
-#### Multi-Language Support
+**Multi-Language Support**
 
 ![Supporting multiple languages](/static/guides/braintrust/personalized/MultiLang.png)
 
-#### Code Style Preferences
+**Code Style Preferences**
 
 ![Insert your coding style](/static/guides/braintrust/personalized/CodeInsertYourStyle.png)
 
-#### Performance Considerations
+**Performance Considerations**
 
 ![Removing timing-specific code](/static/guides/braintrust/personalized/CodeRmTiming.png)
 
-### Phoenix
+#### Phoenix Personalization Examples
 
-#### Fix Formatting
+**Fix Formatting**
 
 ![Fix Formatting](/static/guides/pheonix/personalized/FormattingFix.png)
 
-#### Rm hosted options you're not using
+**Remove hosted options you're not using**
 
 ![Remove Cloud Hosting](/static/guides/pheonix/personalized/RmCloudHosted.png)
 
-#### Put in project specific info
+**Put in project specific info**
 
 ![Put in Real Endpoints](/static/guides/pheonix/personalized/RmCopyPutInRealInfo.png)
 
-#### Remove Unused Languages
+**Remove Unused Languages**
 
 ![Remove Typescript](/static/guides/pheonix/personalized/TypeScript.png)
 
-### Inspect
+#### Inspect Personalization Examples
 
-#### Human prose -> AI Instruction
+**Human prose → AI Instruction**
 
 ![Change tip to instruction for env var clarity](/static/guides/inspect/personalized/EnvVariableClarity.png)
 
-#### Remove examples not relevant to you
+**Remove examples not relevant to you**
 
 ![Remove non-relevant examples](/static/guides/inspect/personalized/TrimExamples.png)
