@@ -19,7 +19,7 @@ def base_layout(title: str = "Isaac Flath & Eleanor Berger",
         Complete HTML page with DaisyUI styling and HTMX
     """
     # Get base URL from environment or use default
-    base_url = 'https://elite-ai-assisted-coding.dev/'
+    base_url = 'https://elite-ai-assisted-coding.dev'
     
     # Ensure image URL is absolute
     if image.startswith('/'):
