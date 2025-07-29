@@ -1,7 +1,7 @@
 import air
 from fastapi import Request
 from fastapi.staticfiles import StaticFiles
-from fastapi.responses import HTMLResponse
+from fastapi.responses import HTMLResponse, RedirectResponse
 # Create the Air app
 app = air.Air()
 
@@ -47,6 +47,15 @@ async def tool_cards_partial(search: str = "", category: str = "all", sort: str 
 async def guide_cards_partial(search: str = "", category: str = "all", sort: str = "date-desc", limit: int = None):
     from components.guide_cards import get_filtered_guide_cards
     return HTMLResponse(get_filtered_guide_cards(search, category, sort, limit))
+
+# Redirects from old URLs
+@app.get("/tools-review/{tool_name}.html")
+async def redirect_tool_review_html(tool_name: str):
+    return RedirectResponse(url=f"/tool-reviews/{tool_name}", status_code=301)
+
+@app.get("/tools-review/{tool_name}")
+async def redirect_tool_review(tool_name: str):
+    return RedirectResponse(url=f"/tool-reviews/{tool_name}", status_code=301)
 
 # Health check endpoint
 @app.get("/health")
