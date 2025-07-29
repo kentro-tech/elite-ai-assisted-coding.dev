@@ -3,6 +3,15 @@ from typing import List, Dict, Any
 
 # Sample tool data - in a real app this would come from a database
 TOOLS_DATA = [
+    # {
+    #     "id": "openhands",
+    #     "title": "Open Hands Tool Review",
+    #     "description": "Web based AI coding agent with real-time collaboration and code generation",
+    #     "image": "/static/OpenHandsToolReview.png",
+    #     "category": "Web",
+    #     "date": "2025-07-28",
+    #     "url": "/tool-reviews/openhands"
+    # },
     {
         "id": "cursor",
         "title": "Cursor Tool Review",
@@ -29,7 +38,8 @@ TOOLS_DATA = [
         "category": "Web",
         "date": "2025-07-10",
         "url": "/tool-reviews/amp"
-    }
+    },
+
 ]
 
 def tool_card(tool: Dict[str, Any]) -> air.Div:

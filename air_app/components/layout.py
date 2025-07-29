@@ -1,4 +1,5 @@
 import air
+import os
 from typing import List, Optional
 
 def base_layout(title: str = "Isaac Flath & Eleanor Berger", 
@@ -11,11 +12,20 @@ def base_layout(title: str = "Isaac Flath & Eleanor Berger",
     Args:
         title: Page title
         description: Page description for meta tag
+        image: Path to social card image
         *content: Page content elements
     
     Returns:
         Complete HTML page with DaisyUI styling and HTMX
     """
+    # Get base URL from environment or use default
+    base_url = 'https://elite-ai-assisted-coding.dev/'
+    
+    # Ensure image URL is absolute
+    if image.startswith('/'):
+        image_url = f"{base_url}{image}"
+    else:
+        image_url = image
     return air.Html(
         air.Head(
             air.Meta(charset="UTF-8"),
@@ -25,16 +35,19 @@ def base_layout(title: str = "Isaac Flath & Eleanor Berger",
             
             # Open Graph / Facebook
             air.Meta(property="og:type", content="website"),
+            air.Meta(property="og:url", content=base_url),
             air.Meta(property="og:title", content=title),
             air.Meta(property="og:description", content=description),
-            air.Meta(property="og:image", content=image),
+            air.Meta(property="og:image", content=image_url),
+            air.Meta(property="og:image:width", content="1200"),
+            air.Meta(property="og:image:height", content="630"),
             air.Meta(property="og:site_name", content="Elite AI-Assisted Coding"),
             
             # Twitter Card
             air.Meta(name="twitter:card", content="summary_large_image"),
             air.Meta(name="twitter:title", content=title),
             air.Meta(name="twitter:description", content=description),
-            air.Meta(name="twitter:image", content=image),
+            air.Meta(name="twitter:image", content=image_url),
             air.Meta(name="twitter:site", content="@isaac_flath"),
             air.Meta(name="twitter:creator", content="@isaac_flath"),
             
