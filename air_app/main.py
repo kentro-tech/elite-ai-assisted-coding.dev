@@ -14,6 +14,8 @@ from air_pages.tool_reviews import tool_reviews_page
 from air_pages.tool_review import tool_review_page
 from air_pages.guides import guides_page
 from air_pages.guide import guide_page
+from air_pages.lightning_lessons import lightning_lessons_page
+from air_pages.lightning_lesson import lightning_lesson_page
 
 # Routes using Air tags
 @app.get("/")
@@ -36,6 +38,14 @@ async def guides():
 async def guide(request: Request, guide_name: str):
     # Use the Air component for all guides
     return guide_page(guide_name)
+
+@app.get("/lightning-lessons")
+async def lightning_lessons():
+    return lightning_lessons_page()
+
+@app.get("/lightning-lessons/{lesson_name}")
+async def lightning_lesson(lesson_name: str):
+    return lightning_lesson_page(lesson_name)
 
 # HTMX partial endpoints
 @app.get("/partials/tool-cards")
