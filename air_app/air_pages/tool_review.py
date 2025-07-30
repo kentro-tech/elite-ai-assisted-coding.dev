@@ -25,7 +25,8 @@ def tool_review_page(tool_name: str) -> air.Html:
     tool_image_map = {
         "amp": "/static/AmpToolReview.png",
         "cursor": "/static/CursorToolReview.png",
-        "gemini-cli": "/static/GeminiCliToolReview.png"
+        "gemini-cli": "/static/GeminiCliToolReview.png",
+        "openhands": "/static/OpenHandsToolReview.png"
     }
     social_image = tool_image_map.get(tool_name, "/static/CourseCard.jpg")
     

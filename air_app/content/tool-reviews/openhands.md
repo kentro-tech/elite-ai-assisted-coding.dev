@@ -17,6 +17,8 @@ TLDR: OpenHands saved me time and mental energy by helping with the migration an
 
 [**Enroll Now on Maven →**](https://maven.com/kentro/context-engineering-for-coding?promoCode=ISAAC)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VC5zmmLk7B4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Setup
 
 The setup was straightforward. OpenHands provides a clean interface to connect to a GitHub repository, which I used to give it access to my existing Quarto site.
